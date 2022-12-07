@@ -27,7 +27,7 @@ export function Work() {
                 <div>
                   <h3>Shipper</h3>
                   <p className="info">
-                    Test Automation Engineer Intern<span>&bull;</span>{" "}
+                    Test Engineer Productivity Intern<span>&bull;</span>{" "}
                     <em className="date">Aug 2022 - Dec 2022</em>
                   </p>
                   <p>
