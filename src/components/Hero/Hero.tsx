@@ -21,7 +21,7 @@ export function Hero() {
           <h1>Didin Nur Yahya</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Fullstack Developer, Mobile developer and Test engineer</h3>
+          <h3>Passionate Software Engineer, Product Generalist & QA</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">4 Years of Experience</p>
