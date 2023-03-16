@@ -25,6 +25,26 @@ export function Work() {
             <div className="row item">
               <div className="twelve columns">
                 <div>
+                  <h3>Sinarmas Land</h3>
+                  <p className="info">
+                    IT Developer Intern<span>&bull;</span>{" "}
+                    <em className="date">Aug 2022 - Dec 2022</em>
+                  </p>
+                  <p>
+                    Develop internal application in sinarmas Reactive web
+                    development and Mobile Development (PWA) Using Outsystems
+                    and Javascript
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <div>
                   <h3>Shipper</h3>
                   <p className="info">
                     Test Engineer Productivity Intern<span>&bull;</span>{" "}
