@@ -2,6 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
+import logoIcon from "../../assets/logodny.jpg";
 
 import CV from "../../assets/Didin nur yahya - Fullstack Engineer - CV.pdf";
 export function Header() {
@@ -20,8 +21,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>Didin Nur</span>
-          <span>Yahya</span>
+          <img src={logoIcon} alt="Home" className="image--cover" />
         </HashLink>
 
         <input

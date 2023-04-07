@@ -40,10 +40,18 @@ export const Container = styled.section`
   p{
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    font-weight: 500;
+  font-weight: 500;
   }
   
   
+ .image--cover {
+    width: 150px;
+    height: 450px;
+    margin: 20px;
+
+    object-fit: cover;
+    object-position: center right;
+  }
 
   .about-image{
     text-align: center;
@@ -96,4 +104,4 @@ export const Container = styled.section`
     
   }
 
-`
+`;

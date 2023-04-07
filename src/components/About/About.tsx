@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import AnakGaul from "../../assets/WhatsApp Image 2022-12-03 at 11.13.06 PM.webp";
+import AnakGaul from "../../assets/WhatsApp Image 2022-12-03 at 11.13.06 PM-fotor-bg-remover-2023040841623.png";
 import flutter from "../../assets/flutter_logo.svg";
 import laravel from "../../assets/Laravel.svg";
 import pythonIcon from "../../assets/python-3.svg";
@@ -115,7 +115,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={AnakGaul} alt="Didin Nur Yahya" />
+          <img src={AnakGaul} alt="Didin Nur Yahya" className="image--cover" />
         </ScrollAnimation>
       </div>
     </Container>

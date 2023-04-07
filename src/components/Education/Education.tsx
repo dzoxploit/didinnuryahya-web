@@ -81,11 +81,9 @@ export function Education() {
                     <em className="date">October 2018 - December 2018</em>
                   </p>
                   <p>
-                    Activities and societies: Elected Captain of Software
-                    Engineering Professional development completed in Fullstack
-                    Java Developer Received Bina Informatika Scholarship Awarded
-                    Web technologies Student Skills Competition in regional city
-                    and province level
+                    Activities and societies: Learn to Build GIS Application
+                    using Javascript ES6, DOM and OpenStreetmap Js with mobile
+                    web application methodologies
                   </p>
                 </div>
               </div>

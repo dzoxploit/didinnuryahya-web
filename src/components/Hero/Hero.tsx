@@ -14,17 +14,18 @@ export function Hero() {
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
           <p>
-            Hello <img src={Hello} alt="Hello" width="20px" />, I'm
+            Hello <img src={Hello} alt="Hello" width="20px" />, I'm <b>DNY</b>
+            {" AKA "}
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Didin Nur Yahya</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Passionate Software Engineer, Product Generalist & QA</h3>
+          <h3>Software Engineer, Product Management & Test Engineer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">4 Years of Experience</p>
+          <p className="small-resume">Life Long Learner</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
