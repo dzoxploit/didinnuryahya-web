@@ -28,7 +28,7 @@ export function Work() {
                   <h3>Sinarmas Land</h3>
                   <p className="info">
                     Technology Developer Intern<span>&bull;</span>{" "}
-                    <em className="date">March 2023 - Now</em>
+                    <em className="date">March 2023 - May 2023</em>
                   </p>
                   <p>
                     Develop internal application in sinarmas Reactive web
