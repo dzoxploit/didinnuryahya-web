@@ -25,9 +25,27 @@ export function Work() {
             <div className="row item">
               <div className="twelve columns">
                 <div>
+                  <h3>Creative Indigo Production</h3>
+                  <p className="info">
+                    Backend Developer<span>&bull;</span>{" "}
+                    <em className="date">September 2023 - Now</em>
+                  </p>
+                  <p>
+                    Maintenence and Develop CMS Admin And API service For cumicumi.com using PHP Laravel MongoDB and Jenkins Digital Ocean
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <div>
                   <h3>Sinarmas Land</h3>
                   <p className="info">
-                    Technology Developer Intern<span>&bull;</span>{" "}
+                    Outsystems Developer Intern<span>&bull;</span>{" "}
                     <em className="date">March 2023 - May 2023</em>
                   </p>
                   <p>
