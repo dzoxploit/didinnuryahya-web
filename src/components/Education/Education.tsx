@@ -28,12 +28,11 @@ export function Education() {
                   <h3>Gunadarma University</h3>
                   <p className="info">
                     Informatics<span>&bull;</span>{" "}
-                    <em className="date">Oct 2019 - Now</em>
+                    <em className="date">Oct 2019 - Aug 2023</em>
                   </p>
                   <p>
-                    Activities and societies: Final Year StudentActivities and
-                    societies: Final Year Student Programming stack : Assembly,
-                    COBOL, Python,Ruby, C#, PHP, Golang
+                    Programming stack : Assembly,
+                    COBOL, Python,Ruby, C#, PHP, Golang,Javascript, Java
                   </p>
                 </div>
               </div>
