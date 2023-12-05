@@ -24,6 +24,7 @@ function App() {
         />
 
         {/* Open Graph tags */}
+        <meta property="fb:app_id" content="319630456776049" />
         <meta property="og:title" content="Didin Nur Yahya" />
         <meta
           property="og:description"
