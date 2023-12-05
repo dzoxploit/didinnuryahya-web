@@ -6,6 +6,7 @@ import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 import { GlobalStyle } from "./styles/global";
 import "react-toastify/dist/ReactToastify.css";
+import logoIcon from "./assets/logodny.jpg";
 
 function App() {
   return (
@@ -28,17 +29,17 @@ function App() {
           property="og:description"
           content="Didin Nur Yahya, A developer and a Freelancer. I create interactive & responsive Websites, Mobile Apps, and Test automation projects. Experience with E-Commerce site development."
         />
-        <meta property="og:image" content="/Images/.png" />
+        <meta property="og:image" content={logoIcon} />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:image" content="/Images/favicon.png" />
-        <meta name="image" property="og:image" content="/Images/favicon.png" />
-        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image" content={logoIcon} />
+        <meta name="image" property="og:image" content={logoIcon} />
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
         <meta property="og:type" content="website" />
         <meta property="og:type" content="article" />
         <meta property="article:author" content="http://github.com/dzoxploit" />
-        <meta property="og:site_name" content="didinnuryahya.vercell.app" />
+        <meta property="og:site_name" content="didinnuryahya.vercel.app" />
         <meta property="article:published_time" content="date_time" />
         <meta property="og:locale" content="pt_BR" />
       </Helmet>
