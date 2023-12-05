@@ -33,9 +33,9 @@ function App() {
           property="og:image"
           content="https://img.cumicumi.com/uploads/public/2023-12-05/202/312/051/th_350x200_202312051701755900656ebbfcc7715.jpg"
         />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
+        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:width" content="350" />
+        <meta property="og:image:height" content="200" />
         <meta property="og:type" content="website" />
         <meta property="og:type" content="article" />
         <meta property="article:author" content="http://github.com/dzoxploit" />
