@@ -23,17 +23,17 @@ function App() {
         />
 
         {/* Open Graph tags */}
-        <meta property="fb:app_id" content="319630456776049" />
         <meta property="og:title" content="Didin Nur Yahya" />
         <meta
           property="og:description"
-          content="Didin Nur Yahya, A developer and a Freelancer. I create interactive & responsive Websites, Mobile Apps, and Test automation projects. Experience with E-Commerce site development."
+          content="Didin Nur Yahya, A developer and a Freelancer."
         />
         <meta property="og:type" content="website" />
         <meta property="article:author" content="http://github.com/dzoxploit" />
         <meta property="og:site_name" content="didinnuryahya.vercel.app" />
         <meta property="og:locale" content="pt_BR" />
         <meta property="og:url" content="https://didinnuryahya.vercel.app" />
+        <meta property="fb:app_id" content="319630456776049" />
       </Helmet>
 
       <GlobalStyle />
