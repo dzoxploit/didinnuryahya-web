@@ -5,35 +5,47 @@ import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 import "react-toastify/dist/ReactToastify.css";
-import logoIcon from "./assets/logodny.jpg";
+import logoIcon from "./assets/WhatsApp Image 2022-12-03 at 11.13.06 PM-fotor-bg-remover-2023040841623.png";
 
 function App() {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Didin Nur Yahya</title>
         <meta
           name="description"
-          content="Didin Nur Yahya, A developer and a Freelancer. I create interactive & responsive Websites, Mobile Apps, and Test automation projects. Experience with E-Commerce site development."
-        />
-        <meta
-          name="keywords"
-          content="Didin Nur Yahya, Didin, Didin nur yahya LKS"
+          content="Didin Nur Yahya, Software Engineer and Test Engineer"
         />
 
-        {/* Open Graph tags */}
-        <meta property="og:title" content="Didin Nur Yahya" />
+        {/* Google / Search Engine Tags */}
+        <meta itemProp="name" content="Didin Nur Yahya" />
+        <meta
+          itemProp="description"
+          content="Didin Nur Yahya, Software Engineer and Test Engineer"
+        />
+        <meta itemProp="image" content={logoIcon} />
+
+        {/* Facebook Meta Tags */}
+        <meta property="og:url" content="https://didinnuryahya.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="DNY Aka Didin Nur Yahya" />
         <meta
           property="og:description"
-          content="Didin Nur Yahya, A developer and a Freelancer."
+          content="Didin Nur Yahya, Software Engineer and Test Engineer"
         />
-        <meta property="og:type" content="website" />
-        <meta property="article:author" content="http://github.com/dzoxploit" />
-        <meta property="og:site_name" content="didinnuryahya.vercel.app" />
-        <meta property="og:locale" content="pt_BR" />
-        <meta property="og:url" content="https://didinnuryahya.vercel.app" />
-        <meta property="fb:app_id" content="319630456776049" />
+        <meta property="og:image" content={logoIcon} />
+        <meta property="og:image:type" content="image/png" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Didin Nur Yahya" />
+        <meta
+          name="twitter:description"
+          content="Didin Nur Yahya, Software Engineer and Test Engineer"
+        />
+        <meta name="twitter:image" content={logoIcon} />
+        {/* Facebook App ID */}
+        <meta property="fb:app_id" content="1166728617405476" />
       </Helmet>
 
       <GlobalStyle />
