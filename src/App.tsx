@@ -29,15 +29,11 @@ function App() {
           property="og:description"
           content="Didin Nur Yahya, A developer and a Freelancer. I create interactive & responsive Websites, Mobile Apps, and Test automation projects. Experience with E-Commerce site development."
         />
-        <meta property="og:image" content="https://i.imgur.com/pHrKSHE.png" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
         <meta property="article:author" content="http://github.com/dzoxploit" />
         <meta property="og:site_name" content="didinnuryahya.vercel.app" />
         <meta property="og:locale" content="pt_BR" />
-        <meta property="og:url" content="https://your-website-url.com" />
+        <meta property="og:url" content="https://didinnuryahya.vercel.app" />
       </Helmet>
 
       <GlobalStyle />
