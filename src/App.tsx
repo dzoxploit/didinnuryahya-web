@@ -1,10 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useEffect } from "react";
+import { GlobalStyle } from "./styles/global";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
-import { GlobalStyle } from "./styles/global";
 import "react-toastify/dist/ReactToastify.css";
 import logoIcon from "./assets/logodny.jpg";
 
@@ -31,15 +30,14 @@ function App() {
           content="Didin Nur Yahya, A developer and a Freelancer. I create interactive & responsive Websites, Mobile Apps, and Test automation projects. Experience with E-Commerce site development."
         />
         <meta property="og:image" content="https://i.imgur.com/pHrKSHE.png" />
-        <meta property="og:image:type" content="image/jpg" />
-        <meta property="og:image:width" content="350" />
-        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
-        <meta property="og:type" content="article" />
         <meta property="article:author" content="http://github.com/dzoxploit" />
         <meta property="og:site_name" content="didinnuryahya.vercel.app" />
-        <meta property="article:published_time" content="date_time" />
         <meta property="og:locale" content="pt_BR" />
+        <meta property="og:url" content="https://your-website-url.com" />
       </Helmet>
 
       <GlobalStyle />
