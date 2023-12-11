@@ -33,11 +33,17 @@ function App() {
           property="og:description"
           content="Didin Nur Yahya, Software Engineer and Test Engineer"
         />
-        <meta property="og:image" content={logoIcon} />
+        <meta
+          property="og:image"
+          content={"https://didinnuryahya.vercel.app" + logoIcon}
+        />
         <meta property="og:image:type" content="image/png" />
 
         {/* Twitter Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:card"
+          content={"https://didinnuryahya.vercel.app" + logoIcon}
+        />
         <meta name="twitter:title" content="Didin Nur Yahya" />
         <meta
           name="twitter:description"
