@@ -49,7 +49,10 @@ function App() {
           name="twitter:description"
           content="Didin Nur Yahya, Software Engineer and Test Engineer"
         />
-        <meta name="twitter:image" content={logoIcon} />
+        <meta
+          name="twitter:image"
+          content={"https://didinnuryahya.vercel.app" + logoIcon}
+        />
         {/* Facebook App ID */}
         <meta property="fb:app_id" content="1166728617405476" />
       </Helmet>
