@@ -21,6 +21,23 @@ export function Header() {
 
   return (
     <HeadProvider>
+      <Meta charSet="utf-8" />
+      <Meta name="viewport" content="width=device-width, initial-scale=1" />
+      <Link rel="icon" href="Images/favicon.png" />
+      <Link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap"
+        rel="stylesheet"
+      />
+      <Link rel="preconnect" href="https://fonts.googleapis.com" />
+      <Link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
+      <Link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      />
       {/* Facebook Meta Tags */}
       <Title>Didin Nur Yahya</Title>
       <Meta property="og:title" content="DNY Aka Didin Nur Yahya" />
@@ -29,7 +46,7 @@ export function Header() {
         content="Didin Nur Yahya, Software Engineer and Test Engineer"
       />
       <Meta property="og:url" content="https://didinnuryahya.vercel.app" />
-      <meta property="og:title" content="Didin Nur Yahya cihuy" />
+      <Meta property="og:title" content="Didin Nur Yahya cihuy" />
 
       <Meta
         property="og:image"
@@ -51,7 +68,7 @@ export function Header() {
       {/* Twitter Meta Tags */}
       <Meta
         name="twitter:card"
-        content={"https://didinnuryahya.vercel.app" + logoIcon}
+        content={"https://didinnuryahya.vercel.app" + logoOG}
       />
       <Meta name="twitter:title" content="Didin Nur Yahya" />
       <Meta
@@ -60,10 +77,11 @@ export function Header() {
       />
       <Meta
         name="twitter:image"
-        content={"https://didinnuryahya.vercel.app" + logoIcon}
+        content={"https://didinnuryahya.vercel.app" + logoOG}
       />
       {/* Facebook App ID */}
       <Meta property="fb:app_id" content="1166728617405476" />
+
       <Container className="header-fixed">
         <Router>
           <HashLink smooth to="#home" className="logo">
