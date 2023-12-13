@@ -20,7 +20,8 @@ export function Header() {
   }
 
   return (
-    <div>
+    <HeadProvider>
+      {/* Facebook Meta Tags */}
       <Title>Didin Nur Yahya</Title>
       <Meta property="og:title" content="DNY Aka Didin Nur Yahya" />
       <Meta
@@ -113,6 +114,6 @@ export function Header() {
           ></div>
         </Router>
       </Container>
-    </div>
+    </HeadProvider>
   );
 }
