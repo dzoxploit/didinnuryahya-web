@@ -29,7 +29,7 @@ export function Header() {
         content="Didin Nur Yahya, Software Engineer and Test Engineer"
       />
       <Meta property="og:url" content="https://didinnuryahya.vercel.app" />
-      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Didin Nur Yahya cihuy" />
 
       <Meta
         property="og:image"
