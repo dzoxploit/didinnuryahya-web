@@ -63,7 +63,6 @@ export function Header() {
       />
       {/* Facebook App ID */}
       <Meta property="fb:app_id" content="1166728617405476" />
-
       <Container className="header-fixed">
         <Router>
           <HashLink smooth to="#home" className="logo">
