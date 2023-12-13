@@ -20,8 +20,7 @@ export function Header() {
   }
 
   return (
-    <HeadProvider>
-      {/* Facebook Meta Tags */}
+    <div>
       <Title>Didin Nur Yahya</Title>
       <Meta property="og:title" content="DNY Aka Didin Nur Yahya" />
       <Meta
@@ -64,6 +63,7 @@ export function Header() {
       />
       {/* Facebook App ID */}
       <Meta property="fb:app_id" content="1166728617405476" />
+
       <Container className="header-fixed">
         <Router>
           <HashLink smooth to="#home" className="logo">
@@ -114,6 +114,6 @@ export function Header() {
           ></div>
         </Router>
       </Container>
-    </HeadProvider>
+    </div>
   );
 }
