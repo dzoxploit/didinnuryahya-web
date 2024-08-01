@@ -27,11 +27,20 @@ export function Work() {
                 <div>
                   <h3>Creative Indigo Production</h3>
                   <p className="info">
-                    Backend Developer<span>&bull;</span>{" "}
+                    Fullstack Developer<span>&bull;</span>{" "}
                     <em className="date">September 2023 - Now</em>
                   </p>
                   <p>
-                    Maintenence and Develop CMS Admin And API service For cumicumi.com using PHP Laravel MongoDB and Jenkins Digital Ocean
+                    Maintain and improve the functionality of our Content Management Systems (CMS) and API services.
+                  </p>
+                  <p>
+                  Collaborate with the team to develop new features and enhancements for the cumicumi.com portal.
+                  </p>
+                  <p>
+                  Migration process of our portal's mobile and desktop web media from React JS to Next JS SSR For Improve SEO and Views Traffic
+                  </p>
+                  <p> 
+                  Develop Core Backend for Cumishop
                   </p>
                 </div>
               </div>
@@ -49,9 +58,17 @@ export function Work() {
                     <em className="date">March 2023 - May 2023</em>
                   </p>
                   <p>
-                    Develop internal application in sinarmas Reactive web
-                    development and Mobile Development (PWA) Using Outsystems
-                    and Javascript
+                   Maintenance And Develop Dashboard Security Inspection mobile applications and Web applications using OutSystems
+                  </p>
+                  <p>
+                  Learn to integrate the Forge package in the service studio OutSystems
+                  </p>
+                  <p>
+                  Learn to build applications using microservice methodologies OutSystems
+                  </p>
+                  <p>
+                  Build customized package for reading PDF use Javascript and C#
+                  Meeting to stakeholder for improvement of internal application
                   </p>
                 </div>
               </div>
@@ -71,10 +88,15 @@ export function Work() {
                   <p>
                     Functional Test Atoor Application Using Jira, Testrail and
                     Checking GraphQL & Tracker system function in Frontend
-                    application. Blackbox testing API service in Atoor Platfrom
+                    application.
+                  </p>
+                  <p>
+                     Blackbox testing API service in Atoor Platfrom
                     (OCMS marketplace) Regression test in Sandbox Atoor App
+                  </p>
+                  <p>
                     Learn Automation test engineer using selenium and robot
-                    frameworkMagang
+                    framework
                   </p>
                 </div>
               </div>
@@ -257,9 +279,38 @@ export function Work() {
                   <h3>PT Invensi Kreatif Lab</h3>
                   <p className="info">
                     Frontend engineer part-time<span>&bull;</span>{" "}
+                    <em className="date">September 2018 - February 2019</em>
+                  </p>
+                  <p>
+                  Passionate frontend web developer experienced in crafting user-friendly interfaces using HTML, CSS, and jQuery (Vanilla JavaScript).<br/>
+                  Skilled in creating mockups for Qelola apps, ensuring seamless user experiences and intuitive design.<br/>
+                  Dedicated to delivering high-quality code and collaborating with cross-functional teams to achieve project objectives.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={0.2 * 1000}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <div>
+                  <h3>CV Berkah Teknik</h3>
+                  <p className="info">
+                    Wordpress part-time<span>&bull;</span>{" "}
                     <em className="date">August 2019 - December 2019</em>
                   </p>
-                  <p>Develop Web Frontend Qelola Skills: JavaScript</p>
+                  <p>
+                  Proficient web developer specialized in creating company profiles using WordPress, HTML, CSS, and JavaScript. 
+                  Experienced in leveraging WordPress to build dynamic and visually appealing websites, with a focus on responsive design and user experience.
+                  Skilled in crafting custom HTML, CSS, and JavaScript solutions to meet project requirements and enhance website functionality.
+                  Dedicated to delivering high-quality results that align with client needs and business objective
+                  </p>
                 </div>
               </div>
             </div>
