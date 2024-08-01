@@ -32,7 +32,7 @@ export function Portfolio() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="Visit site" />
+                  <img src={externalLink} alt="pass-logistic.com" />
                 </a>
               </div>
             </header>

@@ -6,7 +6,7 @@ import { useState } from "react";
 import logoIcon from "../../assets/logodny.jpg";
 import logoOG from "../../assets/WhatsApp Image 2022-12-03 at 11.13.06 PM-fotor-bg-remover-2023040841623.png";
 
-import CV from "../../assets/Didin nur yahya - Fullstack Engineer - CV.pdf";
+import CV from "../../assets/CV - Didin Nur Yahya - Tangerang.pdf";
 export function Header() {
   const [isActive, setActive] = useState(false);
 

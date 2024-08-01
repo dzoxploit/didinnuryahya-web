@@ -27,21 +27,24 @@ export function Work() {
                 <div>
                   <h3>Creative Indigo Production</h3>
                   <p className="info">
-                    Fullstack Developer<span>&bull;</span>{" "}
+                    Software Engineer<span>&bull;</span>{" "}
                     <em className="date">September 2023 - Now</em>
                   </p>
                   <p>
-                    Maintain and improve the functionality of our Content Management Systems (CMS) and API services.
+                    Maintain and improve the functionality of our Content
+                    Management Systems (CMS) and API services.
                   </p>
                   <p>
-                  Collaborate with the team to develop new features and enhancements for the cumicumi.com portal.
+                    Collaborate with the team to develop new features and
+                    enhancements for the cumicumi.com portal.
                   </p>
                   <p>
-                  Migration process of our portal's mobile and desktop web media from React JS to Next JS SSR For Improve SEO and Views Traffic
+                    Lead the migration and revamp of our portal's UI for both
+                    mobile and desktop web platforms, transitioning from React
+                    JS to Next JS SSR to improve SEO and monthly increase
+                    traffic 300% from Old Version
                   </p>
-                  <p> 
-                  Develop Core Backend for Cumishop
-                  </p>
+                  <p>Develop Core Backend for Cumishop</p>
                 </div>
               </div>
             </div>
@@ -58,17 +61,21 @@ export function Work() {
                     <em className="date">March 2023 - May 2023</em>
                   </p>
                   <p>
-                   Maintenance And Develop Dashboard Security Inspection mobile applications and Web applications using OutSystems
+                    Maintenance And Develop Dashboard Security Inspection mobile
+                    applications and Web applications using OutSystems
                   </p>
                   <p>
-                  Learn to integrate the Forge package in the service studio OutSystems
+                    Learn to integrate the Forge package in the service studio
+                    OutSystems
                   </p>
                   <p>
-                  Learn to build applications using microservice methodologies OutSystems
+                    Learn to build applications using microservice methodologies
+                    OutSystems
                   </p>
                   <p>
-                  Build customized package for reading PDF use Javascript and C#
-                  Meeting to stakeholder for improvement of internal application
+                    Build customized package for reading PDF use Javascript and
+                    C# Meeting to stakeholder for improvement of internal
+                    application
                   </p>
                 </div>
               </div>
@@ -91,8 +98,8 @@ export function Work() {
                     application.
                   </p>
                   <p>
-                     Blackbox testing API service in Atoor Platfrom
-                    (OCMS marketplace) Regression test in Sandbox Atoor App
+                    Blackbox testing API service in Atoor Platfrom (OCMS
+                    marketplace) Regression test in Sandbox Atoor App
                   </p>
                   <p>
                     Learn Automation test engineer using selenium and robot
@@ -119,13 +126,14 @@ export function Work() {
                   </p>
                   <p>
                     Manual Testing UAT Mobile Apps and Android Tv Apps using
-                    Android Emulator & Real Device Test Functional API using
-                    insomnia Learn Cypress Test AutomationManual Testing UAT
-                    Mobile Apps and Android Tv Apps using Android Emulator &
-                    Real Device Test Functional API using insomnia Learn Cypress
-                    Test Automation Skills: Android TV Testing · User Acceptance
-                    Testing · MySQL · Manual Testing · Insomnia API · Functional
-                    Testing
+                    Android Emulator & Real Device Test
+                  </p>
+                  <p>
+                    Functional API using insomnia Learn Cypress Test Automation
+                  </p>
+                  <p>
+                    Integration Product Test in Transaction Subscription with
+                    Credit payment Telco / Pulsa(Smartfren)
                   </p>
                 </div>
               </div>
@@ -147,12 +155,26 @@ export function Work() {
                     <em className="date">December 2020 - April 2021</em>
                   </p>
                   <p>
-                    Develop API Backend service for law education platform
-                    heylawedu.id using Laravel, MySQL, Redis, AWS S3 and Digital
-                    ocean as cloud serviceDevelop API Backend service for law
-                    education platform heylawedu.id using Laravel, MySQL, Redis,
-                    AWS S3 and Digital ocean as cloud service Skills: PHP ·
-                    Laravel · MySQL · Git · Redis
+                    Collaborate with the team to design the overall structure
+                    and architecture of the API backend service.
+                  </p>
+                  <p>
+                    Define the database schema and relationships using MySQL.
+                    Determine the caching strategy and implement Redis for
+                    improved performance.
+                  </p>
+                  <p>
+                    Implement the necessary endpoints and routes using Laravel.
+                    Handle authentication and authorization for API access.
+                  </p>
+                  <p>
+                    File Storage and Management: Implement file upload and
+                    download functionality using Laravel and AWS SDK And MUX
+                    Video API.
+                  </p>
+                  <p>
+                    Deploy the API backend service on Digital Ocean using a
+                    droplet.
                   </p>
                 </div>
               </div>
@@ -174,10 +196,21 @@ export function Work() {
                     <em className="date">Nov 2020 - December 2020</em>
                   </p>
                   <p>
-                    Develop Web and API Admin for Bangbeli fintech
-                    platformDevelop Web and API Admin for Bangbeli fintech
-                    platform Skills: PHP · Laravel · MySQL · Git · Back-End Web
-                    Development
+                    Collaborate with the team to design the overall structure
+                    and architecture of the API backend service.
+                  </p>
+                  <p>
+                    Define the database schema and relationships using MySQL.
+                    Determine the caching strategy and implement Redis for
+                    improved performance.
+                  </p>
+                  <p>
+                    Implements the necessary endpoints and routes using Laravel.
+                    Handle authentication and authorization for API access.
+                  </p>
+                  <p>
+                    Deploy the API backend service on Digital Ocean using a
+                    droplet
                   </p>
                 </div>
               </div>
@@ -200,11 +233,15 @@ export function Work() {
                   </p>
                   <p>
                     Develop API Mobile duniamurah.com Develop Backoffice
-                    application duniamurah.com Develop API and admin web
-                    geraiemas.comDevelop API Mobile duniamurah.com Develop
-                    Backoffice application duniamurah.com Develop API and admin
-                    web geraiemas.com Skills: PHP · Laravel · CentOS · Trello ·
-                    CodeIgniter · MySQL · Lumen · Git · Back-End Web Development
+                    application duniamurah.com
+                  </p>
+                  <p>
+                    Develop API and admin web geraiemas.comDevelop API Mobile
+                    duniamurah.com
+                  </p>
+                  <p>
+                    Develop Backoffice application duniamurah.com Develop API
+                    and admin web geraiemas.com
                   </p>
                 </div>
               </div>
@@ -282,9 +319,15 @@ export function Work() {
                     <em className="date">September 2018 - February 2019</em>
                   </p>
                   <p>
-                  Passionate frontend web developer experienced in crafting user-friendly interfaces using HTML, CSS, and jQuery (Vanilla JavaScript).<br/>
-                  Skilled in creating mockups for Qelola apps, ensuring seamless user experiences and intuitive design.<br/>
-                  Dedicated to delivering high-quality code and collaborating with cross-functional teams to achieve project objectives.
+                    Passionate frontend web developer experienced in crafting
+                    user-friendly interfaces using HTML, CSS, and jQuery
+                    (Vanilla JavaScript).
+                    <br />
+                    Skilled in creating mockups for Qelola apps, ensuring
+                    seamless user experiences and intuitive design.
+                    <br />
+                    Dedicated to delivering high-quality code and collaborating
+                    with cross-functional teams to achieve project objectives.
                   </p>
                 </div>
               </div>
@@ -306,10 +349,15 @@ export function Work() {
                     <em className="date">August 2019 - December 2019</em>
                   </p>
                   <p>
-                  Proficient web developer specialized in creating company profiles using WordPress, HTML, CSS, and JavaScript. 
-                  Experienced in leveraging WordPress to build dynamic and visually appealing websites, with a focus on responsive design and user experience.
-                  Skilled in crafting custom HTML, CSS, and JavaScript solutions to meet project requirements and enhance website functionality.
-                  Dedicated to delivering high-quality results that align with client needs and business objective
+                    Proficient web developer specialized in creating company
+                    profiles using WordPress, HTML, CSS, and JavaScript.
+                    Experienced in leveraging WordPress to build dynamic and
+                    visually appealing websites, with a focus on responsive
+                    design and user experience. Skilled in crafting custom HTML,
+                    CSS, and JavaScript solutions to meet project requirements
+                    and enhance website functionality. Dedicated to delivering
+                    high-quality results that align with client needs and
+                    business objective
                   </p>
                 </div>
               </div>
@@ -327,15 +375,28 @@ export function Work() {
                 <div>
                   <h3>PT Bareksa Portal Investasi</h3>
                   <p className="info">
-                    Fullstack developer intern<span>&bull;</span>{" "}
+                    Software Engineer intern<span>&bull;</span>{" "}
                     <em className="date">August 2019 - December 2019</em>
                   </p>
                   <p>
                     Build monitoring server application web based use laravel,
-                    Mysql and BootstrapBuild monitoring server application web
-                    based use laravel, Mysql and Bootstrap Skills: PHP · Laravel
-                    · JavaScript · MySQL · Git · Back-End Web Development ·
-                    Insomnia API · Postman API · Functional Testing
+                    Mysql and Bootstrap Define the database schema and
+                    relationships using MySQL.
+                  </p>
+                  <p>
+                    Determine the caching strategy and implement Redis for
+                    improved performance.
+                  </p>
+                  <p>
+                    Implement the necessary endpoints and routes using Laravel.
+                    Setup CRON job for scheduler laravel and Setup Firebase to
+                    push notification to slack channel Deploy the web
+                    application on Centos using a droplet
+                  </p>
+                  <p>
+                    Responsible for ensuring the quality of the Bareksa
+                    Application and the Syailendra Application based on Mobile
+                    (MIUI OS)
                   </p>
                 </div>
               </div>

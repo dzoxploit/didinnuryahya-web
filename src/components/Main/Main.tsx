@@ -6,6 +6,7 @@ import { Contact } from "../Contact/Contact";
 import { Portfolio } from "../Portfolio/Portfolio";
 import { Work } from "../Work/Work";
 import { Education } from "../Education/Education";
+import { Medium } from "../Medium/Medium";
 
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
@@ -261,6 +262,7 @@ export function Main() {
       <About></About>
       <Work></Work>
       <Education></Education>
+      <Medium></Medium>
       <Portfolio></Portfolio>
       <Contact></Contact>
     </Container>
