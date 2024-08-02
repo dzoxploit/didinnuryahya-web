@@ -259,14 +259,13 @@ export function Work() {
                 <div>
                   <h3>CV Nagata Inovasi</h3>
                   <p className="info">
-                    Web engineer Part-time<span>&bull;</span>{" "}
+                    Fullstack Developer<span>&bull;</span>{" "}
                     <em className="date">August 2019 - December 2019</em>
                   </p>
                   <p>
                     Developing website kerjapedia.id using laravel, mysql and
                     bootstrap frameworkDeveloping website kerjapedia.id using
-                    laravel, mysql and bootstrap framework Skills: PHP · Laravel
-                    · Trello · CodeIgniter · MySQL · Back-End Web Development
+                    laravel, mysql and bootstrap framework
                   </p>
                 </div>
               </div>
@@ -292,12 +291,13 @@ export function Work() {
                   <p>
                     Maintenence and develop Module Assesment Exam Application
                     AKSI Using PHP And Javascript ES6 Correct and fixing digital
-                    exam in Aksi web application Data Entry Data National
-                    Assesment PISAMaintenence and develop Module Assesment Exam
-                    Application AKSI Using PHP And Javascript ES6 Correct and
-                    fixing digital exam in Aksi web application Data Entry Data
-                    National Assesment PISA Skills: PHP · ES6 · JavaScript ·
-                    Data Entry · MySQL
+                    exam in Aksi web application
+                  </p>
+                  <p>Data Entry Data National Assesment PISA</p>
+                  <p>
+                    Maintenence and develop Module Assesment Exam Application
+                    AKSI Using PHP And Javascript ES6 Correct and fixing digital
+                    exam in Aksi web application
                   </p>
                 </div>
               </div>
@@ -345,19 +345,26 @@ export function Work() {
                 <div>
                   <h3>CV Berkah Teknik</h3>
                   <p className="info">
-                    Wordpress part-time<span>&bull;</span>{" "}
-                    <em className="date">August 2019 - December 2019</em>
+                    Wordpress Developer<span>&bull;</span>{" "}
+                    <em className="date">June 2018 - December 2018</em>
                   </p>
                   <p>
                     Proficient web developer specialized in creating company
                     profiles using WordPress, HTML, CSS, and JavaScript.
+                  </p>
+                  <p>
                     Experienced in leveraging WordPress to build dynamic and
                     visually appealing websites, with a focus on responsive
-                    design and user experience. Skilled in crafting custom HTML,
-                    CSS, and JavaScript solutions to meet project requirements
-                    and enhance website functionality. Dedicated to delivering
-                    high-quality results that align with client needs and
-                    business objective
+                    design and user experience.
+                  </p>
+                  <p>
+                    Skilled in crafting custom HTML, CSS, and JavaScript
+                    solutions to meet project requirements and enhance website
+                    functionality.
+                  </p>
+                  <p>
+                    Dedicated to delivering high-quality results that align with
+                    client needs and business objective
                   </p>
                 </div>
               </div>
@@ -376,7 +383,7 @@ export function Work() {
                   <h3>PT Bareksa Portal Investasi</h3>
                   <p className="info">
                     Software Engineer intern<span>&bull;</span>{" "}
-                    <em className="date">August 2019 - December 2019</em>
+                    <em className="date">January 2018 - March 2018</em>
                   </p>
                   <p>
                     Build monitoring server application web based use laravel,
