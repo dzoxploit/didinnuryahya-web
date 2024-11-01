@@ -52,7 +52,7 @@ export function Work() {
                   <h3>Creative Indigo Production</h3>
                   <p className="info">
                     Software Engineer<span>&bull;</span>{" "}
-                    <em className="date">September 2023 - September 2023</em>
+                    <em className="date">September 2023 - September 2024</em>
                   </p>
                   <p>
                     Maintain and improve the functionality of our Content
