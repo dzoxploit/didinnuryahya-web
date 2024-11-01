@@ -7,6 +7,7 @@ import { Portfolio } from "../Portfolio/Portfolio";
 import { Work } from "../Work/Work";
 import { Education } from "../Education/Education";
 import { Medium } from "../Medium/Medium";
+import { YouTubeVideos } from "../Youtube/Youtube";
 
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
@@ -263,6 +264,7 @@ export function Main() {
       <Work></Work>
       <Education></Education>
       <Medium></Medium>
+      <YouTubeVideos></YouTubeVideos>
       <Portfolio></Portfolio>
       <Contact></Contact>
     </Container>
