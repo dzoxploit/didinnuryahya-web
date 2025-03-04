@@ -3,7 +3,7 @@ import { Container } from "./styles";
 import axios from "axios";
 import ScrollAnimation from "react-animate-on-scroll";
 import externalLink from "../../assets/external-link.svg";
-import xml2js from "xml2js";
+import { XMLParser } from "fast-xml-parser";
 
 // Define the type for a video
 type Video = {
@@ -16,13 +16,24 @@ type Video = {
 
 const fetchYouTubeVideosRSS = async (): Promise<Video[]> => {
   try {
-    const response = await axios.get("https://www.youtube.com/feeds/videos.xml?channel_id=YOUR_CHANNEL_ID");
-    const parsed = await xml2js.parseStringPromise(response.data, { explicitArray: false });
+    const response = await axios.get(
+      "https://api.cors.lol/?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCN6WAHd0tJIqHSwmRJqjieg"
+    );
+
+    const parser = new XMLParser();
+    const parsed = parser.parse(response.data);
+
+    console.log(parsed);
+
     return parsed.feed.entry.map((video: any) => ({
       id: video["yt:videoId"],
       title: video.title,
-      link: video.link.$.href,
-      thumbnail: video["media:group"]["media:thumbnail"].$.url,
+      link:
+        video.link?.["@_href"] ||
+        `https://www.youtube.com/watch?v=${video["yt:videoId"]}`,
+      thumbnail:
+        video["media:group"]["media:thumbnail"]?.["@_url"] ||
+        `https://i3.ytimg.com/vi/${video["yt:videoId"]}/hqdefault.jpg`,
       publishedAt: video.published,
     }));
   } catch (error) {
@@ -46,10 +57,10 @@ export function YouTubeVideos() {
   return (
     <Container id="portfolio">
       <h2>My YouTube Videos</h2>
-      <div className="projects">
+      <div className="videos">
         {videos.map((video) => (
           <ScrollAnimation key={video.id} animateIn="flipInX">
-            <div className="project">
+            <div className="video-card">
               <header>
                 <div className="project-links">
                   <a href={video.link} target="_blank" rel="noreferrer">
@@ -60,7 +71,9 @@ export function YouTubeVideos() {
               <div className="body">
                 <h3>{video.title}</h3>
                 <img src={video.thumbnail} alt={video.title} />
-                <p>Published: {new Date(video.publishedAt).toLocaleDateString()}</p>
+                <p>
+                  Published: {new Date(video.publishedAt).toLocaleDateString()}
+                </p>
               </div>
             </div>
           </ScrollAnimation>
