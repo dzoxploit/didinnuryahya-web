@@ -25,20 +25,36 @@ export function Work() {
             <div className="row item">
               <div className="twelve columns">
                 <div>
-                  <h3>PT Cipta Mortar Utama</h3>
+                  <h3>PT BYD Auto Indonesia</h3>
+                  <p className="info">
+                    Software Engineer<span>&bull;</span>{" "}
+                    <em className="date">February 2025 - Now</em>
+                  </p>
+                  <p>
+                    Develop and Maintenence WMS, TMS And QMS Applications for
+                    Subang Plant
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <div>
+                  <h3>PT Saint Gobain Indonesia</h3>
                   <p className="info">
                     Application Developer<span>&bull;</span>{" "}
-                    <em className="date">September 2024 - Now</em>
+                    <em className="date">September 2024 - December 2024</em>
                   </p>
                   <p>
-                    Develop module workflow form, Reporting apps use E-cology and M3 ERP
+                    Develop module workflow form, Web apps and Reporting module
+                    use E-cology(Weaver Form) and Baiteda and M3 ERP
                   </p>
-                  <p>
-                    Help to UAT and SIT For Internal Apps
-                  </p>
-                  <p>
-                  Handle Module Tellus ERP for TMS
-                  </p>
+                  <p>Help to UAT and SIT For Internal Apps</p>
+                  <p>Handle Module Tellus ERP for TMS and Wegrow Sales Apps</p>
                 </div>
               </div>
             </div>
@@ -51,7 +67,7 @@ export function Work() {
                 <div>
                   <h3>Creative Indigo Production</h3>
                   <p className="info">
-                    Software Engineer<span>&bull;</span>{" "}
+                    Senior Software Engineer<span>&bull;</span>{" "}
                     <em className="date">September 2023 - September 2024</em>
                   </p>
                   <p>
