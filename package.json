@@ -20,6 +20,7 @@
     "react-google-recaptcha": "^2.1.0",
     "react-head": "^3.4.2",
     "react-helmet": "^6.1.0",
+    "react-is": "^19.0.0",
     "react-router-dom": "^5.3.4",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
