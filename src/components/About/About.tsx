@@ -12,6 +12,8 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import GoIcon from "../../assets/Go-Logo_Aqua.svg";
+import OutsystemIcon from "../../assets/Outsystem.svg";
+import BaitedaIcon from "../../assets/batedalogo.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -24,11 +26,11 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            My name is Didin Nur Yahya , I'm a Software Engineer, Test Engineer
-            and Mobile developer with a great passion for programming. I am
-            passionate about delivering solutions that add to people's lives and
-            at the same time challenge me. Improved my skills as a Mobile
-            Developer, Fullstack Developer and Test Engineer
+            I’m Didin Nur Yahya, a passionate Software Engineer with a strong
+            foundation in full-stack development, mobile apps, QA automation,
+            and manufacturing IT systems. I thrive in cross-functional
+            environments—combining development, testing, and business insight to
+            build scalable, efficient, and impactful solutions.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -109,6 +111,16 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={GoIcon} alt="Golang" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={OutsystemIcon} alt="Outsystem" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={BaitedaIcon} alt="Baiteda" />
             </ScrollAnimation>
           </div>
         </div>

@@ -31,8 +31,32 @@ export function Work() {
                     <em className="date">February 2025 - Now</em>
                   </p>
                   <p>
-                    Develop and Maintenence WMS, TMS And QMS Applications for
-                    Subang Plant
+                    <p>
+                      Developed and maintained a cross-platform Warehouse
+                      Management System (WMS) for both desktop and tablet
+                      environments (Progressive Web App) tailored to IDN
+                      (Indonesia) and CN (China) operations. Ensured seamless
+                      support across multi-environment deployments with
+                      region-specific configurations and optimizations.
+                    </p>
+                    <p>
+                      Collaborated daily with BYD Shenzhen IT team to resolve
+                      critical bugs, implement continuous system improvements,
+                      and ensure smooth operational performance across supply
+                      chain operations.
+                    </p>
+                    <p>
+                      {" "}
+                      Actively contributed to agile development cycles involving
+                      over 20 international team members, enabling effective
+                      cross-border coordination and rapid delivery.
+                    </p>
+                    <p>
+                      Enhanced system stability and performance by identifying
+                      bottlenecks and implementing scalable backend solutions
+                      and responsive UI designs tailored for warehouse staff
+                      usability.
+                    </p>
                   </p>
                 </div>
               </div>
@@ -49,12 +73,27 @@ export function Work() {
                     Application Developer<span>&bull;</span>{" "}
                     <em className="date">September 2024 - December 2024</em>
                   </p>
-                  <p>
-                    Develop module workflow form, Web apps and Reporting module
-                    use E-cology(Weaver Form) and Baiteda and M3 ERP
-                  </p>
-                  <p>Help to UAT and SIT For Internal Apps</p>
-                  <p>Handle Module Tellus ERP for TMS and Wegrow Sales Apps</p>
+                  BPM Module Workflow Supplier Guarantee, Developed Supplier
+                  Guarantee App using the Baiteda Low Code Platform with a
+                  combination of Vue.js and Java Axway, ensuring seamless
+                  automation and efficient approval processes. Streamlined
+                  workflows and enhanced user experience by implementing modular
+                  and reusable components. BPM Workflow (Item Master)
+                  Applications, Po approval and Request application form apps
+                  Built a robust Item Master Workflow App utilizing WFForm,
+                  optimizing data management processes and reducing manual
+                  intervention. Focused on delivering scalable solutions that
+                  integrate seamlessly with existing business operations.
+                  Reporting from Infor M3 Created detailed and actionable
+                  reports from Infor M3 into Crystal Reports, empowering
+                  stakeholders with real-time insights and enabling data-driven
+                  decision-making. Worked closely with teams to customize report
+                  formats and ensure alignment with business needs. IT
+                  Application Support for WeGrow Sales Apps Provided
+                  comprehensive IT application support for WeGrow Sales apps,
+                  ensuring system reliability, user satisfaction, and swift
+                  issue resolution. Played a key role in troubleshooting,
+                  maintaining, and enhancing the platform's performance.
                 </div>
               </div>
             </div>
