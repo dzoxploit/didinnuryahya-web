@@ -12,7 +12,7 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import GoIcon from "../../assets/Go-Logo_Aqua.svg";
-import OutsystemIcon from "../../assets/Outsystem.svg";
+import OutsystemIcon from "../../assets/OutSystems.svg";
 import BaitedaIcon from "../../assets/batedalogo.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
