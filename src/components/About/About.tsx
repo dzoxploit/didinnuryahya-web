@@ -26,11 +26,12 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            I’m Didin Nur Yahya, a passionate Software Engineer with a strong
-            foundation in full-stack development, mobile apps, QA automation,
-            and manufacturing IT systems. I thrive in cross-functional
-            environments—combining development, testing, and business insight to
-            build scalable, efficient, and impactful solutions.
+            I’m Didin Nur Yahya — a Full-Stack Software Engineer focused on
+            building scalable web systems, backend-driven applications, and
+            internal enterprise tools used in real operational environments. My
+            experience spans development, QA, and manufacturing IT systems,
+            giving me a strong understanding of how software supports real
+            business processes.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -39,16 +40,20 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            I develop websites and applications using PHP, Javascript, Golang,
-            Dart, C#, Java. I am familiar with developing Basic Layout Frontend
-            that they provide me. I'm always improving myself with each project
-            I get my hands on.
+            I specialize in backend architecture, API development, system
+            workflows, and performance-focused applications. I work with
+            technologies such as PHP, JavaScript, Golang, Dart, C#, and Java,
+            and I’m comfortable turning business requirements into structured,
+            reliable systems rather than just building features.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I am a dedicated person who pursues his dreams, hardworking and
-            results oriented, I always seek to achieve my best version.
+            I enjoy solving complex problems, improving system logic, and
+            bridging the gap between technical solutions and business needs. I’m
+            naturally curious and known for digging deep into how systems work —
+            sometimes with a bit of technical yapping when things get
+            interesting.
           </p>
         </ScrollAnimation>
 

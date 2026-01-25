@@ -23,8 +23,8 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>
-            Software Engineer, QA Engineer & Low Code Developer Enthusiast
-            (Outsystem, Mendix, Baiteda, Weaver Ecology)
+            Software Engineer with a curious mind and a minor side quest in
+            technical yapping.
           </h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>

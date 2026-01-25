@@ -8,6 +8,8 @@ import { Work } from "../Work/Work";
 import { Education } from "../Education/Education";
 import { Medium } from "../Medium/Medium";
 import { YouTubeVideos } from "../Youtube/Youtube";
+import WeatherAndPraySchedule from "../WeatherAndPraySchedule/WeatherAndPraySchedule";
+import RamadhanFullSchedule from "../WeatherAndPraySchedule/RamadhanFullSchedule";
 
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
@@ -266,6 +268,8 @@ export function Main() {
       <Medium></Medium>
       <YouTubeVideos></YouTubeVideos>
       <Portfolio></Portfolio>
+      <WeatherAndPraySchedule></WeatherAndPraySchedule>
+      <RamadhanFullSchedule></RamadhanFullSchedule>
       <Contact></Contact>
     </Container>
   );
