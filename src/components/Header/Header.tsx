@@ -113,6 +113,12 @@ export function Header() {
             <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
               Portfolio
             </NavHashLink>
+            <NavHashLink smooth to="#weather-pray-schedule" onClick={closeMenu}>
+              Weather & Prayer Schedule
+            </NavHashLink>
+            <NavHashLink smooth to="#ramadhan-schedule" onClick={closeMenu}>
+              Ramadhan Schedule
+            </NavHashLink>
             <NavHashLink smooth to="#contact" onClick={closeMenu}>
               Contact
             </NavHashLink>

@@ -14,6 +14,7 @@ import {
   PrayerList,
   RamadhanList,
   HighlightLine,
+  Container,
 } from "./styles";
 
 import { getCityFromCoords } from "./getCityFromCoords";
@@ -110,40 +111,42 @@ export default function WeatherAndPraySchedule() {
   }, []);
 
   return (
-    <WidgetContainer>
-      <Skyline>
-        <Sky isDay={isDay} />
-        <SunMoon isDay={isDay} />
-        <Buildings />
-      </Skyline>
+    <Container id="weather-pray-schedule">
+      <WidgetContainer>
+        <Skyline>
+          <Sky isDay={isDay} />
+          <SunMoon isDay={isDay} />
+          <Buildings />
+        </Skyline>
 
-      <LocationTitle>🌍 {locationName}</LocationTitle>
-      {weather && <WeatherLine>🌡 {weather.temperature}°C</WeatherLine>}
+        <LocationTitle>🌍 {locationName}</LocationTitle>
+        {weather && <WeatherLine>🌡 {weather.temperature}°C</WeatherLine>}
 
-      <GridLayout>
-        <LeftColumn>
-          <SectionTitle>🕌 Jadwal Sholat Hari Ini</SectionTitle>
-          {prayer && (
-            <PrayerList>
-              <p>🌅 Fajr: {prayer.Fajr}</p>
-              <p>☀️ Dhuhr: {prayer.Dhuhr}</p>
-              <p>🌤 Asr: {prayer.Asr}</p>
-              <HighlightLine>🌇 Maghrib: {prayer.Maghrib}</HighlightLine>
-              <p>🌙 Isha: {prayer.Isha}</p>
-            </PrayerList>
-          )}
-        </LeftColumn>
+        <GridLayout>
+          <LeftColumn>
+            <SectionTitle>🕌 Jadwal Sholat Hari Ini</SectionTitle>
+            {prayer && (
+              <PrayerList>
+                <p>🌅 Fajr: {prayer.Fajr}</p>
+                <p>☀️ Dhuhr: {prayer.Dhuhr}</p>
+                <p>🌤 Asr: {prayer.Asr}</p>
+                <HighlightLine>🌇 Maghrib: {prayer.Maghrib}</HighlightLine>
+                <p>🌙 Isha: {prayer.Isha}</p>
+              </PrayerList>
+            )}
+          </LeftColumn>
 
-        <RightColumn>
-          <SectionTitle>🌙 Jadwal Puasa</SectionTitle>
-          {prayer && (
-            <RamadhanList>
-              <HighlightLine>🌙 Imsak: {prayer.Imsak}</HighlightLine>
-              <HighlightLine>🌇 Maghrib: {prayer.Maghrib}</HighlightLine>
-            </RamadhanList>
-          )}
-        </RightColumn>
-      </GridLayout>
-    </WidgetContainer>
+          <RightColumn>
+            <SectionTitle>🌙 Jadwal Puasa</SectionTitle>
+            {prayer && (
+              <RamadhanList>
+                <HighlightLine>🌙 Imsak: {prayer.Imsak}</HighlightLine>
+                <HighlightLine>🌇 Maghrib: {prayer.Maghrib}</HighlightLine>
+              </RamadhanList>
+            )}
+          </RightColumn>
+        </GridLayout>
+      </WidgetContainer>
+    </Container>
   );
 }

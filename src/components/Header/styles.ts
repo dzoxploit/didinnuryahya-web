@@ -42,9 +42,24 @@ export const Container = styled.header`
     height: 80px;
     border-radius: 50%;
     margin: 20px;
-
     object-fit: cover;
     object-position: center right;
+  }
+
+  @media (max-width: 768px) {
+    .image--cover {
+      width: 60px;
+      height: 60px;
+      margin: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image--cover {
+      width: 50px;
+      height: 50px;
+      margin: 8px;
+    }
   }
 
   .menu-container {

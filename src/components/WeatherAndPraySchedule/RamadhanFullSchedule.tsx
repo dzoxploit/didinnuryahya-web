@@ -58,7 +58,7 @@ export default function RamadhanFullSchedule() {
   }, []);
 
   return (
-    <Container>
+    <Container id="ramadhan-schedule">
       <Title>🌙 Jadwal Puasa Ramadhan — {city}</Title>
 
       {data.map((d, i) => (
