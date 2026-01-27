@@ -16,12 +16,12 @@ const fadeIn = keyframes`
 /* ================= SMART WIDGET CARD ================= */
 
 export const WidgetContainer = styled.div`
-  margin: 6rem auto 3rem auto;
-  padding: 2.5rem 3rem;
+  margin: clamp(4rem, 10vh, 6rem) auto 3rem auto;
+  padding: clamp(1.2rem, 3vw, 2.5rem);
   border-radius: 22px;
 
   width: 100%;
-  max-width: 900px; /* ⬅ sekarang lebar */
+  max-width: 900px;
 
   background: linear-gradient(
     180deg,
@@ -30,9 +30,7 @@ export const WidgetContainer = styled.div`
   );
 
   border: 1px solid rgba(35, 206, 107, 0.4);
-  box-shadow:
-    0 0 0 1px rgba(35, 206, 107, 0.2),
-    0 15px 60px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.6);
 
   color: white;
   animation: ${fadeIn} 0.8s ease forwards;
@@ -43,10 +41,10 @@ export const WidgetContainer = styled.div`
 export const Skyline = styled.div`
   position: relative;
   width: 100%;
-  height: 150px;
+  height: clamp(100px, 20vw, 150px);
   border-radius: 18px;
   overflow: hidden;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 `;
 
 export const Sky = styled.div<{ isDay: boolean }>`
@@ -80,15 +78,16 @@ export const Buildings = styled.div`
 /* ================= LOCATION & WEATHER ================= */
 
 export const LocationTitle = styled.h4`
-  font-size: 5rem;
+  font-size: clamp(1.6rem, 6vw, 3rem);
   margin-bottom: 0.3rem;
   font-weight: 600;
+  line-height: 1.2;
 `;
 
 export const WeatherLine = styled.p`
   margin: 0 0 1rem 0;
-  font-size: 5.05rem;
-  opacity: 0.85;
+  font-size: clamp(1.8rem, 7vw, 3.5rem);
+  opacity: 0.9;
 `;
 
 /* ================= GRID SECTION ================= */
@@ -96,10 +95,10 @@ export const WeatherLine = styled.p`
 export const GridLayout = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: clamp(1rem, 3vw, 2rem);
   margin-top: 1.2rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 640px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -111,7 +110,7 @@ export const RightColumn = styled.div``;
 
 export const SectionTitle = styled.h4`
   margin-bottom: 0.8rem;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 3.5vw, 1rem);
   opacity: 0.9;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   padding-bottom: 4px;
@@ -120,7 +119,7 @@ export const SectionTitle = styled.h4`
 /* ================= PRAYER LIST ================= */
 
 export const PrayerList = styled.div`
-  font-size: 2rem;
+  font-size: clamp(0.95rem, 3.8vw, 1.4rem);
 
   p {
     margin: 6px 0;
@@ -132,7 +131,7 @@ export const PrayerList = styled.div`
 /* ================= RAMADHAN LIST ================= */
 
 export const RamadhanList = styled.div`
-  font-size: 2rem;
+  font-size: clamp(0.95rem, 3.8vw, 1.4rem);
 
   p {
     margin: 6px 0;
@@ -155,7 +154,7 @@ export const HighlightLine = styled.p`
 
 export const Container = styled.div`
   margin: 2.5rem auto 0 auto;
-  padding: 1.5rem 2rem;
+  padding: clamp(1rem, 3vw, 2rem);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
@@ -166,7 +165,8 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h3`
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  font-size: clamp(1.2rem, 5vw, 1.8rem);
 `;
 
 /* ================= RAMADHAN TABLE ROW ================= */
@@ -174,10 +174,22 @@ export const Title = styled.h3`
 export const Row = styled.div`
   display: grid;
   grid-template-columns: 70px 140px 1fr 1fr;
-  gap: 12px;
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  font-size: 2rem;
+  gap: 10px;
+  font-size: clamp(0.85rem, 3.5vw, 1.2rem);
+
+  @media (min-width: 1400px) {
+    grid-template-columns: 90px 180px 1fr 1fr;
+    font-size: 2rem;
+    row-gap: 15px;
+    padding: 8px;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.3rem;
+    row-gap: 4px;
+    padding: 5px;
+  }
 `;
 
 export const Highlight = styled.span`
