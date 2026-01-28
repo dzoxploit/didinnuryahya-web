@@ -26,20 +26,19 @@ export const Container = styled.section`
   }
 
   .video-card {
-    text-decoration: none;
-    color: white;
     border-radius: 1.6rem;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--yt-card-bg);
+    border: 1px solid var(--yt-card-border);
     backdrop-filter: blur(10px);
     transition: all 0.35s ease;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 
     &:hover {
       transform: translateY(-8px);
-      border: 1px solid #ff0000;
+      border: 1px solid var(--yt-hover);
       box-shadow: 0 0 30px rgba(255, 0, 0, 0.25);
     }
   }
@@ -50,6 +49,13 @@ export const Container = styled.section`
     background-position: center;
     position: relative;
     transition: transform 0.4s ease;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    }
 
     .play-btn {
       position: absolute;
@@ -62,6 +68,7 @@ export const Container = styled.section`
       background: rgba(0, 0, 0, 0.35);
       opacity: 0;
       transition: 0.3s;
+      z-index: 2;
     }
   }
 
@@ -80,6 +87,7 @@ export const Container = styled.section`
   h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+    color: var(--yt-title);
 
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -89,7 +97,7 @@ export const Container = styled.section`
 
   p {
     font-size: 1.3rem;
-    opacity: 0.7;
+    color: var(--yt-text);
   }
 
   @media (max-width: 960px) {

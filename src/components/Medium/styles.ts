@@ -29,9 +29,9 @@ export const Container = styled.section`
     border-radius: 1.6rem;
     overflow: hidden;
     text-decoration: none;
-    color: white;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--card-text);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
     backdrop-filter: blur(10px);
     transition: all 0.35s ease;
     display: flex;
@@ -39,8 +39,8 @@ export const Container = styled.section`
 
     &:hover {
       transform: translateY(-8px);
-      border: 1px solid #23ce6b;
-      box-shadow: 0 0 30px rgba(35, 206, 107, 0.2);
+      border-color: var(--green);
+      box-shadow: var(--card-glass-shadow);
     }
   }
 
@@ -54,7 +54,7 @@ export const Container = styled.section`
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
     }
   }
 
@@ -76,7 +76,7 @@ export const Container = styled.section`
   }
 
   p {
-    opacity: 0.75;
+    color: var(--card-subtext);
     font-size: 1.4rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -89,7 +89,7 @@ export const Container = styled.section`
 
   .read-more {
     margin-top: auto;
-    color: #23ce6b;
+    color: var(--green);
     font-weight: 600;
     font-size: 1.3rem;
   }

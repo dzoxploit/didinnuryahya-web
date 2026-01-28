@@ -13,30 +13,33 @@ export function Hero() {
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>
-            Hello <img src={Hello} alt="Hello" width="20px" />, I'm <b>DNY</b>
-            {" AKA "}
+          <p className="intro">
+            Hello <img src={Hello} alt="Hello" />, I'm
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Didin Nur Yahya</h1>
+
+        <ScrollAnimation animateIn="fadeInUp" delay={200}>
+          <h1>
+            Didin Nur Yahya
+            <span className="cursor">|</span>
+          </h1>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+
+        <ScrollAnimation animateIn="fadeInUp" delay={400}>
           <h3>
-            Software Engineer with a curious mind and a minor side quest in
-            technical yapping.
+            Software Engineer who builds systems,
+            <span className="highlight"> automates chaos</span>, and
+            occasionally overthinks architecture.
           </h3>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-          <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">
-              Contact
-            </NavHashLink>
-          </BrowserRouter>
+        <ScrollAnimation animateIn="fadeInUp" delay={700}>
+          <NavHashLink smooth to="#contact" className="button">
+            🚀 Let's Talk
+          </NavHashLink>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={900}>
           <div className="social-media">
             <a
               href="https://www.linkedin.com/in/didin-nur-yahya-63772512b/"
@@ -53,19 +56,26 @@ export function Hero() {
               <img src={githubIcon} alt="GitHub" />
             </a>
             <a
-              href="https://api.whatsapp.com/send/?phone=%2B6281413309326&text=Didin+Nur+Yahya"
+              href="https://api.whatsapp.com/send/?phone=%2B6281413309326"
               target="_blank"
               rel="noreferrer"
             >
               <img src={whatsapp} alt="Whatsapp" />
+            </a>
+            <a
+              href="https://t.me/yourtelegram"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={telegram} alt="Telegram" />
             </a>
           </div>
         </ScrollAnimation>
       </div>
 
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustration Industrial Engineer" />
+        <ScrollAnimation animateIn="fadeInRight" delay={800}>
+          <img src={Illustration} alt="Illustration" />
         </ScrollAnimation>
       </div>
     </Container>
