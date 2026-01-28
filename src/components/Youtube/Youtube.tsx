@@ -17,7 +17,7 @@ type Video = {
 const fetchYouTubeVideosRSS = async (): Promise<Video[]> => {
   try {
     const response = await axios.get(
-      "https://api.cors.lol/?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCN6WAHd0tJIqHSwmRJqjieg"
+      "https://api.cors.lol/?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCN6WAHd0tJIqHSwmRJqjieg",
     );
 
     const parser = new XMLParser();
@@ -50,32 +50,41 @@ export function YouTubeVideos() {
       const data: Video[] = await fetchYouTubeVideosRSS();
       setVideos(data);
     };
-
     getVideos();
   }, []);
 
   return (
-    <Container id="portfolio">
-      <h2>My YouTube Videos</h2>
+    <Container id="youtube">
+      <h2>🎬 Latest YouTube Videos</h2>
+
       <div className="videos">
         {videos.map((video) => (
-          <ScrollAnimation key={video.id} animateIn="flipInX">
-            <div className="video-card">
-              <header>
-                <div className="project-links">
-                  <a href={video.link} target="_blank" rel="noreferrer">
-                    <img src={externalLink} alt="Watch video" />
-                  </a>
-                </div>
-              </header>
-              <div className="body">
+          <ScrollAnimation key={video.id} animateIn="fadeInUp">
+            <a
+              href={video.link}
+              target="_blank"
+              rel="noreferrer"
+              className="video-card"
+            >
+              <div
+                className="thumb"
+                style={{ backgroundImage: `url(${video.thumbnail})` }}
+              >
+                <div className="play-btn">▶</div>
+              </div>
+
+              <div className="info">
                 <h3>{video.title}</h3>
-                <img src={video.thumbnail} alt={video.title} />
                 <p>
-                  Published: {new Date(video.publishedAt).toLocaleDateString()}
+                  📅{" "}
+                  {new Date(video.publishedAt).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                  })}
                 </p>
               </div>
-            </div>
+            </a>
           </ScrollAnimation>
         ))}
       </div>

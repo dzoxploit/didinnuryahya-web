@@ -13,71 +13,88 @@ export const Container = styled.section`
     text-align: center;
     font-size: 4rem;
     margin-bottom: 5rem;
-    color: ${green};
+    background: linear-gradient(90deg, #ff0000, #ff6f61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .videos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 2.5rem;
     padding: 1rem;
-    overflow: hidden;
   }
 
   .video-card {
-    padding: 2rem 1.8rem;
-    background-color: #2b2b2b;
-    border-radius: 1.2rem;
-    transition: 0.25s;
+    text-decoration: none;
+    color: white;
+    border-radius: 1.6rem;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    transition: all 0.35s ease;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    color: #fff;
 
     &:hover {
-      transform: translateY(-5px);
-      background-color: ${pink};
+      transform: translateY(-8px);
+      border: 1px solid #ff0000;
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.25);
     }
+  }
 
-    header {
+  .thumb {
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 0.4s ease;
+
+    .play-btn {
+      position: absolute;
+      inset: 0;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      color: ${blue};
-      margin-bottom: 3.6rem;
-
-      .video-links {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-      }
-
-      a > img {
-        width: 5rem;
-      }
+      justify-content: center;
+      font-size: 3.2rem;
+      color: white;
+      background: rgba(0, 0, 0, 0.35);
+      opacity: 0;
+      transition: 0.3s;
     }
+  }
 
-    h3 {
-      margin-bottom: 2rem;
-    }
+  .video-card:hover .thumb {
+    transform: scale(1.05);
+  }
 
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 0.8rem;
-    }
+  .video-card:hover .play-btn {
+    opacity: 1;
+  }
 
-    p {
-      letter-spacing: 0.12rem;
-      margin-top: 1rem;
-      font-size: 1.2rem;
-      color: #ddd;
-    }
+  .info {
+    padding: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  p {
+    font-size: 1.3rem;
+    opacity: 0.7;
   }
 
   @media (max-width: 960px) {
     .videos {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
