@@ -23,40 +23,43 @@ export function Medium() {
       const data: Article[] = await fetchMediumArticles();
       setArticles(data);
     };
-
     getArticles();
   }, []);
 
-  // Helper function to remove HTML tags, decode entities, and limit description
   const decodeAndLimitDescription = (description: string, limit: number) => {
-    // Remove HTML tags using regex
     const textOnly = description.replace(/<\/?[^>]+(>|$)/g, "");
-    // Decode HTML entities
-    const decodedDescription = he.decode(textOnly);
-    // Limit length and add ellipsis
-    if (decodedDescription.length <= limit) return decodedDescription;
-    return decodedDescription.slice(0, limit) + "...";
+    const decoded = he.decode(textOnly);
+    return decoded.length <= limit ? decoded : decoded.slice(0, limit) + "...";
   };
 
   return (
-    <Container id="portfolio">
-      <h2>My Medium Articles</h2>
+    <Container id="medium">
+      <h2>✍️ My Medium Articles</h2>
+
       <div className="projects">
         {articles.map((article) => (
-          <ScrollAnimation key={article.guid} animateIn="flipInX">
-            <div className="project">
-              <header>
-                <div className="project-links">
-                  <a href={article.link} target="_blank" rel="noreferrer">
-                    <img src={externalLink} alt="Visit article" />
-                  </a>
-                </div>
-              </header>
-              <div className="body">
+          <ScrollAnimation key={article.guid} animateIn="fadeInUp">
+            <a
+              href={article.link}
+              target="_blank"
+              rel="noreferrer"
+              className="project"
+            >
+              {/* THUMBNAIL */}
+              {article.thumbnail && (
+                <div
+                  className="thumb"
+                  style={{ backgroundImage: `url(${article.thumbnail})` }}
+                />
+              )}
+
+              <div className="content">
                 <h3>{article.title}</h3>
-                <p>{decodeAndLimitDescription(article.description, 255)}</p>
+                <p>{decodeAndLimitDescription(article.description, 160)}</p>
+
+                <div className="read-more">Read Article →</div>
               </div>
-            </div>
+            </a>
           </ScrollAnimation>
         ))}
       </div>
