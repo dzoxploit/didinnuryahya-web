@@ -27,9 +27,6 @@ export function Hero() {
             technical yapping.
           </h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">Life Long Learner</p>
-        </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -68,7 +65,7 @@ export function Hero() {
 
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
+          <img src={Illustration} alt="Ilustration Industrial Engineer" />
         </ScrollAnimation>
       </div>
     </Container>
