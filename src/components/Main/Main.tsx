@@ -23,7 +23,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
-
+import outsystem from "../../assets/OutSystems.svg";
 export function Main() {
   return (
     <Container>
@@ -62,6 +62,7 @@ export function Main() {
                 { src: sassIcon, width: 20, height: 20 },
                 { src: typescriptIcon, width: 20, height: 20 },
                 { src: vueIcon, width: 20, height: 20 },
+                { src: outsystem, width: 20, height: 20 },
               ],
             },
           },
