@@ -161,6 +161,7 @@ export const Container = styled.section`
   .tech-pill:hover::after {
     transform: translateX(120%);
   }
+
   /* IMAGE AREA */
   .about-image {
     position: relative;

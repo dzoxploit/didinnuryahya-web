@@ -4,6 +4,7 @@ import fetchMediumArticles from "./FetchMediumArticle";
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import he from "he"; // Import the he library
+import { Link } from "react-router-dom";
 
 // Define the type for an article
 type Article = {
@@ -39,13 +40,11 @@ export function Medium() {
       <div className="projects">
         {articles.map((article) => (
           <ScrollAnimation key={article.guid} animateIn="fadeInUp">
-            <a
-              href={article.link}
-              target="_blank"
-              rel="noreferrer"
+            <Link
+              to={`/article/${encodeURIComponent(article.guid)}`}
               className="project"
             >
-              {/* THUMBNAIL */}
+              {/* THUMB */}
               {article.thumbnail && (
                 <div
                   className="thumb"
@@ -53,16 +52,17 @@ export function Medium() {
                 />
               )}
 
+              {/* CONTENT */}
               <div className="content">
                 <h3>{article.title}</h3>
                 <p>{decodeAndLimitDescription(article.description, 160)}</p>
-
                 <div className="read-more">Read Article →</div>
               </div>
-            </a>
+            </Link>
           </ScrollAnimation>
         ))}
       </div>
     </Container>
   );
 }
+export default Medium;
