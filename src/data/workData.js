@@ -9,7 +9,8 @@ export const workData = [
       "Handled multi-environment deployments ensuring seamless support.",
       "Collaborated daily with BYD Shenzhen IT team resolving critical bugs and system improvements.",
       "Worked in agile development cycles with 20+ international engineers.",
-      "Improved performance via scalable backend architecture and responsive UI for warehouse staff.",
+      "Setup CI CD Pipeline using Jenkins and Grayscale deployment strategies use Ubuntu VM and Docker.",
+      "Help to Build Monitoring Log system use ELK stack and Grafana for real-time performance insights.",
     ],
   },
 
@@ -22,6 +23,7 @@ export const workData = [
       "Built BPM Item Master Workflow and PO Approval apps.",
       "Automated approval processes and improved modular reusable components.",
       "Created Infor M3 reports into Crystal Reports for real-time insights.",
+      "Built and implemented an AI chatbot to support and optimize manufacturing processes.",
       "Provided IT Application Support for WeGrow Sales Apps.",
       "Enhanced system reliability, performance, and user satisfaction.",
     ],
