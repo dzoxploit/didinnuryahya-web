@@ -69,6 +69,35 @@ const portfolioData = [
       live: "https://gamespace-didin.netlify.app/",
     },
   },
+  {
+    title: "Rusteez",
+    description: "Learn Rust programming with small projects and examples.",
+    tech: ["Rust", "Cargo"],
+    icon: "github",
+    links: {
+      github: "https://github.com/dzoxploit/rusteez",
+    },
+  },
+  {
+    title: "Simple Eccommerce",
+    description:
+      "Tes teknis kanggo posisi Backend Developer. Nyuwun ngapunten nek telat ngumpulake, soale lagi rame pol kerjaan, dikejar deadline nang endi-endi. Mugi-mugi iso migunani lan paring manfaat. Matur nuwun.",
+    tech: ["Laravel", "MYSQL", "Redis", "React JS", "Inertia JS"],
+    icon: "github",
+    links: {
+      github: "https://github.com/dzoxploit/simple-eccommerce",
+    },
+  },
+  {
+    title: "Lapangan Booking System",
+    description:
+      "Iki tes teknis Fullstack Developer Gajine nang salah siji grup properti gede tapi isih saitik, dadi yowes aku njupuk offering nang Subang wae",
+    tech: ["Node JS", "MYSQL", "Redis", "Prisma", "ORM"],
+    icon: "github",
+    links: {
+      github: "https://github.com/dzoxploit/cms_booking_lapangan_backend",
+    },
+  },
 ];
 
 export default portfolioData;
