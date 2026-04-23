@@ -9,7 +9,6 @@ import { Education } from "../Education/Education";
 import { Medium } from "../Medium/Medium";
 import { YouTubeVideos } from "../Youtube/Youtube";
 import WeatherAndPraySchedule from "../WeatherAndPraySchedule/WeatherAndPraySchedule";
-import RamadhanFullSchedule from "../WeatherAndPraySchedule/RamadhanFullSchedule";
 
 // icons
 import wordpress from "../../assets/wordpress.svg";
@@ -77,7 +76,6 @@ export function Main() {
       <YouTubeVideos />
       <Portfolio />
       <WeatherAndPraySchedule />
-      <RamadhanFullSchedule />
       <Contact />
     </Container>
   );
