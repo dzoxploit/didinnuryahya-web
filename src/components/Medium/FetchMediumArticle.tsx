@@ -4,7 +4,7 @@ const fetchMediumArticles = async () => {
   try {
     // Replace `medium-username` with the actual username or use a suitable API
     const response = await axios.get(
-      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@coffeefilterdidin"
+      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sepertibiasa",
     );
     return response.data.items; // Assuming 'items' contains the articles
   } catch (error) {
