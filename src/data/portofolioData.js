@@ -11,6 +11,27 @@ const portfolioData = [
     },
   },
   {
+    title: "Web Sepertibiasa.vercel.app",
+    description: "my continue project mini blog for self improvement.",
+    tech: ["Lumen", "MySQL", "Next JS", "React JS"],
+    icon: "folder",
+    links: {
+      live: "https://sepertibiasa-web.vercel.app/",
+      github: null,
+    },
+  },
+  {
+    title: "MERN STACK boilerplate for mini mail app",
+    description:
+      "A simple boilerplate for a mini mail application using MERN stack.",
+    tech: ["React JS", "MongoDB", "Express JS", "Node JS"],
+    icon: "github",
+    links: {
+      github: "https://github.com/dzoxploit/mail-app-coding-test",
+      live: null,
+    },
+  },
+  {
     title: "API Moneyqu Laravel",
     description:
       "Backend API service powering MoneyQU financial management mobile app.",
