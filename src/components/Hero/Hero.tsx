@@ -27,9 +27,12 @@ export function Hero() {
 
         <ScrollAnimation animateIn="fadeInUp" delay={400}>
           <h3>
-            Software Engineer who builds systems,
-            <span className="highlight"> automates chaos</span>, and
-            occasionally overthinks architecture.
+            Software Engineer experienced in
+            <span className="highlight">
+              {" "}
+              manufacturing, logistics, and enterprise platforms
+            </span>
+            , and coffee addicted.
           </h3>
         </ScrollAnimation>
 

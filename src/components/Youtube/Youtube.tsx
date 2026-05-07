@@ -20,24 +20,32 @@ const fetchYouTubeVideosRSS = async (): Promise<Video[]> => {
       "https://api.cors.lol/?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCN6WAHd0tJIqHSwmRJqjieg",
     );
 
-    const parser = new XMLParser();
+    const parser = new XMLParser({
+      ignoreAttributes: false,
+      attributeNamePrefix: "@_",
+    });
+
     const parsed = parser.parse(response.data);
 
-    console.log(parsed);
+    const entries = Array.isArray(parsed.feed.entry)
+      ? parsed.feed.entry
+      : [parsed.feed.entry];
 
-    return parsed.feed.entry.map((video: any) => ({
+    return entries.map((video: any) => ({
       id: video["yt:videoId"],
       title: video.title,
       link:
         video.link?.["@_href"] ||
         `https://www.youtube.com/watch?v=${video["yt:videoId"]}`,
+
       thumbnail:
-        video["media:group"]["media:thumbnail"]?.["@_url"] ||
+        video["media:group"]?.["media:thumbnail"]?.["@_url"] ||
         `https://i3.ytimg.com/vi/${video["yt:videoId"]}/hqdefault.jpg`,
+
       publishedAt: video.published,
     }));
-  } catch (error) {
-    console.error("Error fetching YouTube videos:", error);
+  } catch (error: any) {
+    console.error("RSS ERROR:", error);
     return [];
   }
 };

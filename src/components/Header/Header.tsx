@@ -6,7 +6,7 @@ import { useState } from "react";
 import logoIcon from "../../assets/logodny.jpg";
 import logoOG from "../../assets/WhatsApp Image 2022-12-03 at 11.13.06 PM-fotor-bg-remover-2023040841623.png";
 
-import CV from "../../assets/CV - Didin Nur Yahya - 2025.pdf";
+import CV from "../../assets/CV - Didin Nur Yahya - Indonesia - 2026.pdf";
 export function Header() {
   const [isActive, setActive] = useState(false);
 
@@ -45,12 +45,15 @@ export function Header() {
         property="og:description"
         content="Didin Nur Yahya, Software Engineer and Test Engineer"
       />
-      <Meta property="og:url" content="https://didinnuryahya.vercel.app" />
-      <Meta property="og:title" content="Didin Nur Yahya cihuy" />
+      <Meta property="og:url" content="https://didinnuryahya.my.id" />
+      <Meta
+        property="og:title"
+        content="Didin Nur Yahya | Software Engineer | Test Engineer | Kata Bang Vidi saya seorang Arjuna :V"
+      />
 
       <Meta
         property="og:image"
-        content={"https://didinnuryahya.vercel.app" + logoOG}
+        content={"https://didinnuryahya.my.id" + logoOG}
       />
       <Meta property="og:image:type" content="image/png" />
 
@@ -60,15 +63,12 @@ export function Header() {
         itemProp="description"
         content="Didin Nur Yahya, Software Engineer and Test Engineer"
       />
-      <Meta
-        itemProp="image"
-        content={"https://didinnuryahya.vercel.app" + logoOG}
-      />
+      <Meta itemProp="image" content={"https://didinnuryahya.my.id" + logoOG} />
 
       {/* Twitter Meta Tags */}
       <Meta
         name="twitter:card"
-        content={"https://didinnuryahya.vercel.app" + logoOG}
+        content={"https://didinnuryahya.my.id" + logoOG}
       />
       <Meta name="twitter:title" content="Didin Nur Yahya" />
       <Meta
@@ -77,7 +77,7 @@ export function Header() {
       />
       <Meta
         name="twitter:image"
-        content={"https://didinnuryahya.vercel.app" + logoOG}
+        content={"https://didinnuryahya.my.id" + logoOG}
       />
       {/* Facebook App ID */}
       <Meta property="fb:app_id" content="1166728617405476" />

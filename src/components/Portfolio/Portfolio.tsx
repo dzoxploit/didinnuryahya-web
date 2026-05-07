@@ -6,15 +6,26 @@ import { ProjectCard } from "./ProjectCard";
 export function Portfolio() {
   return (
     <Container id="portfolio">
-      <h2>My Portfolio</h2>
+      <h2>Enterprise & Personal Projects</h2>
 
-      <div className="projects">
-        {portfolioData.map((project, index) => (
-          <ScrollAnimation animateIn="flipInX" key={index}>
-            <ProjectCard project={project} />
-          </ScrollAnimation>
-        ))}
-      </div>
+      {portfolioData.map((category, categoryIndex) => (
+        <div className="category-section" key={categoryIndex}>
+          <h3 className="category-title">{category.category}</h3>
+
+          <div className="projects">
+            {category.projects.map((project: any, projectIndex: number) => (
+              <ScrollAnimation
+                animateIn="fadeInUp"
+                animateOnce={true}
+                duration={0.5}
+                key={projectIndex}
+              >
+                <ProjectCard project={project} />
+              </ScrollAnimation>
+            ))}
+          </div>
+        </div>
+      ))}
     </Container>
   );
 }
