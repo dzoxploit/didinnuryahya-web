@@ -32,84 +32,107 @@ export function About() {
 
   return (
     <Container id="about">
-      {/* Background Effects */}
-      <div className="sparkle" style={{ top: "20%", left: "10%" }} />
-      <div className="sparkle" style={{ top: "40%", right: "15%" }} />
-      <div className="sparkle" style={{ bottom: "30%", left: "25%" }} />
+      {/* HERO SECTION */}
+      <section className="hero-about">
+        <div className="left">
+          <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+            <span className="section-tag">About Me</span>
 
-      <div className="floating-shape shape1"></div>
-      <div className="floating-shape shape2"></div>
+            <h2>
+              Backend Engineer Specializing in Enterprise Systems, Workflow
+              Automation, and Scalable API Architectures
+            </h2>
 
-      {/* LEFT CONTENT */}
-      <div className="about-card">
-        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
-          <span className="section-tag">About Me</span>
-
-          <h2>Building Enterprise Systems & Scalable Backend Architectures</h2>
-
-          <p>
-            I’m Didin Nur Yahya — a Software Engineer focused on backend
-            engineering, enterprise systems, and scalable architectures for
-            manufacturing, logistics, and operational platforms.
-          </p>
-
-          <p>
-            Experienced in developing production-grade applications including
-            Warehouse Management Systems (WMS), ERP integrations, BPM workflows,
-            and distributed microservice ecosystems used in real operational
-            environments.
-          </p>
-
-          <p>
-            My background spans software development, QA engineering, and
-            enterprise manufacturing systems — helping me understand both
-            technical implementation and real business processes.
-          </p>
-
-          <p>
-            I enjoy transforming complex business requirements into reliable,
-            maintainable, and scalable systems with strong focus on performance,
-            system stability, and engineering quality.
-          </p>
-
-          {/* TECH STACK */}
-          <div className="stack-header">
-            <h3>Core Tech Stack</h3>
+            <div className="badges">
+              <span>Enterprise Systems</span>
+              <span>WMS</span>
+              <span>ERP</span>
+              <span>BPM Workflow</span>
+              <span>Microservices</span>
+            </div>
 
             <p>
-              Technologies and tools used across backend services, enterprise
-              systems, and modern web applications.
+              I’m Didin Nur Yahya — a Software Engineer focused on backend
+              engineering, enterprise systems, and scalable architectures.
             </p>
-          </div>
 
-          <div className="tech-stack">
-            {skills.map((skill, i) => (
-              <div key={i} className="tech-pill">
-                <img src={skill.icon} alt={skill.name} />
-                <span>{skill.name}</span>
-              </div>
-            ))}
-          </div>
-        </ScrollAnimation>
-      </div>
+            <p>
+              I build production-grade applications for manufacturing,
+              logistics, BPM workflows, and operational platforms.
+            </p>
 
-      {/* RIGHT IMAGE */}
-      <div className="about-image">
-        <div className="lightning lightning1"></div>
-        <div className="lightning lightning2"></div>
+            <p>
+              My experience spans backend engineering, QA processes, ERP
+              integrations, and enterprise manufacturing systems.
+            </p>
+          </ScrollAnimation>
+        </div>
 
-        <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
-          <div className="image-wrapper">
-            <img
-              src={AnakGaul}
-              alt="Didin Nur Yahya"
-              className="image--cover"
-            />
+        <div className="right">
+          <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
+            <div className="image-wrapper">
+              <img
+                src={AnakGaul}
+                alt="Didin Nur Yahya"
+                className="image--cover"
+              />
+            </div>
+          </ScrollAnimation>
+        </div>
+      </section>
 
-            <div className="image-glow"></div>
-          </div>
-        </ScrollAnimation>
-      </div>
+      {/* METRICS SECTION */}
+      <section className="metrics-section">
+        <div className="metric-card">
+          <h3>4+</h3>
+          <span>Years Experience</span>
+        </div>
+
+        <div className="metric-card">
+          <h3>300%</h3>
+          <span>Traffic Growth</span>
+        </div>
+
+        <div className="metric-card">
+          <h3>4000+</h3>
+          <span>Localization Entries</span>
+        </div>
+
+        <div className="metric-card">
+          <h3>Global</h3>
+          <span>International Teams</span>
+        </div>
+      </section>
+
+      {/* PHILOSOPHY */}
+      <section className="philosophy-section">
+        <p>
+          “I believe great software engineering is not only about writing code,
+          but designing systems that remain reliable, scalable, and maintainable
+          as businesses grow.”
+        </p>
+      </section>
+
+      {/* TECH STACK */}
+      <section className="stack-section">
+        <div className="stack-header">
+          <h3>Core Tech Stack</h3>
+
+          <p>
+            Technologies used across enterprise systems, scalable backend
+            services, and modern applications.
+          </p>
+        </div>
+
+        <div className="tech-stack">
+          {skills.map((skill, i) => (
+            <div key={i} className="tech-pill">
+              <img src={skill.icon} alt={skill.name} />
+              <span>{skill.name}</span>
+            </div>
+          ))}
+        </div>
+      </section>
     </Container>
   );
 }
