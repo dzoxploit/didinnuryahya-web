@@ -258,6 +258,19 @@ const portfolioData = [
           github: null,
         },
       },
+      {
+        title: "LocaleForge",
+        description:
+          "LocaleForge helps developers detect missing translation keys across locale files.",
+        tech: ["HTML", "CSS", "Javascript ES6"],
+        highlights: ["MVP Project"],
+        status: "Personal Project",
+        icon: "folder",
+        links: {
+          live: "https://github.com/dzoxploit/LocaleForge",
+          github: null,
+        },
+      },
     ],
   },
 ];
