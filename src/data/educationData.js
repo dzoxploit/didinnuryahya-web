@@ -16,8 +16,10 @@ export const educationData = [
     date: "Jul 2016 – May 2019",
     desc: [
       "Focused on fullstack web development and software fundamentals.",
-      "Elected team captain for Software Engineering student program.",
-      "Winner & participant in regional Web Technology Skills Competition.",
+      "Participated in regional Web Technology Skills Competition and won awards for web development projects.",
+      "Survived 7 AM – 4 PM school days, mountains of homework, and mandatory 'remedial tuntas'.",
+      "Ran on less than 8 hours of sleep — sleep was apparently an optional dependency.",
+      "Basically completed 3 years of unpaid Junior Software Engineer training.",
       "Awarded academic scholarship for technical excellence.",
     ],
   },

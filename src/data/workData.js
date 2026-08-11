@@ -4,22 +4,18 @@ export const workData = [
     role: "Software Engineer",
     date: "February 2025 - Now",
     points: [
-      "Developed and maintained cross-platform Warehouse Management System (WMS) for desktop & tablet (PWA).",
-      "Supported Indonesia (IDN) and China (CN) warehouse operations with region-specific configurations and workflows.",
-      "Handled production systems processing 400K+ transaction records daily with high availability requirements.",
-      "Managed and supported 12+ interconnected microservices including Cloud Platform, ERP, LES, SAP, and XXL-JOBS scheduler services.",
-      "Maintained XXL-JOBS scheduler microservice for distributed job scheduling, enterprise task automation, and background workflow processing.",
-      "Collaborated directly with BYD Shenzhen IT team to resolve critical production issues and optimize system performance.",
-      "Worked in agile development cycles with 20+ international engineers across cross-functional teams.",
-      "Built and maintained CI/CD pipelines using Jenkins, Docker, and Ubuntu VM with grayscale deployment strategies.",
-      "Implemented monitoring and centralized logging solutions using ELK Stack and Grafana for real-time system observability.",
-      "Managed multi-environment deployments ensuring stable releases across staging and production environments.",
+      "Developed and maintained WMS platforms supporting Indonesia and China operations, processing 400K+ transactions daily.",
+      "Managed 12+ interconnected microservices across ERP, SAP, LES, Cloud Platform, and XXL-JOBS.",
+      "Developed Network Management Systems (NMS) integrating NetBox, Cisco, Zabbix, SSH and Grafana for network inventory and monitoring.",
+      "Built automation and synchronization workflows for network devices, monitoring data, and infrastructure inventory.",
+      "Implemented CI/CD and observability using Jenkins, Docker, ELK Stack, and Grafana with grayscale deployment strategies.",
+      "Collaborated with BYD Shenzhen IT and 20+ international engineers to resolve critical production issues and optimize system reliability.",
     ],
   },
 
   {
     company: "PT Saint Gobain Indonesia",
-    role: "Application Developer",
+    role: "Application Developer Supervisor",
     date: "September 2024 - December 2024",
     points: [
       "Developed Supplier Guarantee App using Baiteda Low Code + Vue.js + Java Axway.",
@@ -34,7 +30,7 @@ export const workData = [
 
   {
     company: "Creative Indigo Production",
-    role: "Senior Software Engineer",
+    role: "Senior Web Developer",
     date: "September 2023 - September 2024",
     points: [
       "Maintained CMS platform and backend API services.",
@@ -46,7 +42,7 @@ export const workData = [
 
   {
     company: "Sinarmas Land",
-    role: "Outsystems Developer Intern",
+    role: "Software Engineer Intern",
     date: "March 2023 - May 2023",
     points: [
       "Developed dashboard security inspection mobile & web apps using OutSystems.",
@@ -59,7 +55,7 @@ export const workData = [
 
   {
     company: "Shipper",
-    role: "Test Engineer Productivity Intern",
+    role: "Test Engineer Intern",
     date: "Aug 2022 - Dec 2022",
     points: [
       "Performed functional testing for Atoor application using Jira & Testrail.",
@@ -121,9 +117,9 @@ export const workData = [
   },
 
   {
-    company: "CV Nagata Inovasi",
+    company: "Kerjapedia.id",
     role: "Fullstack Developer",
-    date: "August 2019 - December 2019",
+    date: "August 2019 - May 2020",
     points: ["Developed kerjapedia.id using Laravel, MySQL, and Bootstrap."],
   },
 
@@ -151,7 +147,7 @@ export const workData = [
 
   {
     company: "CV Berkah Teknik",
-    role: "WordPress Developer",
+    role: "Web Developer Freelance",
     date: "June 2018 - December 2018",
     points: [
       "Built company profile websites using WordPress.",
