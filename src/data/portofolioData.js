@@ -36,6 +36,35 @@ const portfolioData = [
       },
 
       {
+        title: "Enterprise Network Management System",
+        description:
+          "Production-grade Network Management System (NMS) supporting Indonesia operations with real-time monitoring and automated alerting capabilities.",
+        tech: [
+          "Python Django",
+          "Microservices",
+          "React.js",
+          "PostgreSQL",
+          "Cisco Catalyst",
+          "Grafana",
+        ],
+        highlights: [
+          "Real-time network monitoring",
+          "Automated alerting system",
+          "Distributed architecture",
+          "Centralized logging & monitoring",
+          "International engineering collaboration",
+          "High availability production system",
+        ],
+        status: "Enterprise Production System",
+        confidential: true,
+        icon: "enterprise",
+        links: {
+          live: null,
+          github: null,
+        },
+      },
+
+      {
         title: "Web Pass-logistic.com",
         description:
           "Company profile and logistics platform with route-based courier pricing system and SEO-optimized frontend architecture.",
