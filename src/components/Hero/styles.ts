@@ -25,6 +25,7 @@ export const Container = styled.section`
   .hero-text {
     position: relative;
     z-index: 2;
+    padding: 20px;
 
     .intro {
       font-size: 1.8rem;
@@ -59,7 +60,7 @@ export const Container = styled.section`
 
   .button {
     margin-top: 4rem;
-    padding: 1.4rem 5rem;
+    padding: 20px;
     background: transparent;
     border: 1px solid #23ce6b;
     color: #23ce6b;
