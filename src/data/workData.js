@@ -4,15 +4,15 @@ export const workData = [
     role: "Software Engineer",
     date: "February 2025 - Now",
     points: [
-      "Developed and maintained WMS platforms supporting Indonesia and China operations, processing 400K+ transactions daily.",
-      "Managed 12+ interconnected microservices across ERP, SAP, LES, Cloud Platform, and XXL-JOBS.",
-      "Developed Network Management Systems (NMS) integrating NetBox, Cisco, Zabbix, SSH and Grafana for network inventory and monitoring.",
-      "Built automation and synchronization workflows for network devices, monitoring data, and infrastructure inventory.",
-      "Implemented CI/CD and observability using Jenkins, Docker, ELK Stack, and Grafana with grayscale deployment strategies.",
-      "Collaborated with BYD Shenzhen IT and 20+ international engineers to resolve critical production issues and optimize system reliability.",
+      "Developed and maintained Warehouse Management System (WMS) platforms supporting Indonesia and China operations, processing 400K+ transactions daily and improving system reliability from 90% to over 99%.",
+      "Managed 12+ interconnected microservices spanning ERP, SAP, LES, Cloud Platform, and XXL-JOBS to support critical manufacturing and warehouse operations.",
+      "Designed and developed a Network Management System (NMS) using Python, Django, and Netmiko, integrating NetBox, Cisco network devices, Zabbix, SSH, and Grafana for centralized network inventory, device management, and infrastructure monitoring.",
+      "Automated network device management, infrastructure inventory synchronization, and monitoring workflows, reducing manual operational processes by over 80%.",
+      "Implemented CI/CD pipelines and observability using Jenkins, Docker, ELK Stack, and Grafana, supporting grayscale deployments and improving production troubleshooting.",
+      "Identified and addressed potential security vulnerabilities by updating PHP applications to PHP 8.5, strengthening application security and reducing exposure to known vulnerabilities.",
+      "Collaborated with 20+ international engineers and BYD Shenzhen IT to resolve critical production incidents, improve system reliability, and optimize enterprise infrastructure.",
     ],
   },
-
   {
     company: "PT Saint Gobain Indonesia",
     role: "Application Developer Supervisor",
