@@ -18,7 +18,7 @@ export const Container = styled.section`
     background-image:
       linear-gradient(rgba(0, 255, 100, 0.06) 1px, transparent 1px),
       linear-gradient(90deg, rgba(0, 255, 100, 0.06) 1px, transparent 1px);
-    background-size: 40px 40px;
+  background-size: 40px 40px;
     z-index: 0;
     pointer-events: none;
   }
