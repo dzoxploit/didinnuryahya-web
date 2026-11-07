@@ -43,7 +43,7 @@ export function Header() {
       <Meta property="og:title" content="DNY Aka Didin Nur Yahya" />
       <Meta
         property="og:description"
-        content="Didin Nur Yahya, Software Engineer and Test Engineer"
+        content="Didin Nur Yahya, Software Engineer, Test Engineer & Manufacture WMS Specialist"
       />
       <Meta property="og:url" content="https://didinnuryahya.my.id" />
       <Meta
@@ -73,7 +73,7 @@ export function Header() {
       <Meta name="twitter:title" content="Didin Nur Yahya" />
       <Meta
         name="twitter:description"
-        content="Didin Nur Yahya, Software Engineer and Test Engineer"
+        content="Didin Nur Yahya, Software Engineer, Test Engineer, IT Application Support, Manufacture WMS Specialist"
       />
       <Meta
         name="twitter:image"
