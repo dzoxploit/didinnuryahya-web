@@ -124,6 +124,41 @@ const portfolioData = [
       },
 
       {
+        title: "Hujan Forecasting Modelling Dashboard",
+        description: "Modeling data untuk pengisian data hujan menggunakan metode normal ratio, IDW & Random Forest Regrestor Method. Collaboration with Assistant Researcher LKFT Gadjah Mada University",
+        tech: ["Python", "Django", "Tensorflow"],
+        highlights: [
+          "Rain Method Forecasting",
+          "Water Analysis",
+          "Machine Learning",
+        ],
+        status: "Collaboration Project",
+        icon: "github",
+        links: {
+          live: null,
+          github: "https://github.com/dzoxploit/Hujan-Forecasting",
+        },
+      },
+
+
+      {
+        title: "Mauku Text Processing",
+        description: "dashboard text processing converting from analyst sentiment BERT from college project",
+        tech: ["Python", "Django", "Tensorflow"],
+        highlights: [
+          "REST API architecture",
+          "Cloud storage integration",
+          "Authentication system",
+        ],
+        status: "Personal Project",
+        icon: "github",
+        links: {
+          live: null,
+          github: "https://github.com/dzoxploit/mauku-text-processing",
+        },
+      },
+
+      {
         title: "API Golang Starter",
         description:
           "Scalable Golang REST API starter template implementing JWT authentication, middleware architecture, and modular service structure using Gin framework.",
@@ -137,6 +172,24 @@ const portfolioData = [
         icon: "github",
         links: {
           github: "https://github.com/dzoxploit/apigolang",
+        },
+      },
+
+
+      {
+        title: "API Wilayah Indonesia",
+        description:
+          "API wilayah source from kaggle indonesia https://www.kaggle.com/datasets/pradanaadn/data-wilayah-administrasi-indonesia/code",
+        tech: ["Python", "PostgreSQL", "Django"],
+        highlights: [
+          "JWT authentication",
+          "Middleware architecture",
+          "Scalable backend structure",
+        ],
+        status: "Open Source",
+        icon: "github",
+        links: {
+          github: "https://github.com/dzoxploit/api-wilayah-2026",
         },
       },
 
