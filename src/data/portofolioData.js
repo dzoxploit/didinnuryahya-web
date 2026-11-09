@@ -288,7 +288,22 @@ const portfolioData = [
           github: "https://github.com/dzoxploit/AI-fundamental",
         },
       },
-
+      {
+        title: "RNN Stock Prediction Google Project",
+        description:
+          "Deep learning use RNN Method",
+        tech: ["Python", "Numpy", "Matplotlib", "Cupy"],
+        highlights: [
+          "Machine learning experiments",
+          "Data visualization",
+          "AI research playground",
+        ],
+        status: "Research",
+        icon: "github",
+        links: {
+          github: "https://github.com/dzoxploit/RNN-Stock-Price-Prediction",
+        },
+      },
       {
         title: "Rusteez",
         description:
@@ -340,6 +355,22 @@ const portfolioData = [
           github: null,
         },
       },
+      {
+        title: "Tudio",
+        description:
+          "text to audio app simple using Flask And GTTS",
+        tech: ["Python", "Flask", "GTTS"],
+        highlights: [
+          "Text to Audio",
+        ],
+        status: "Personal Project",
+        icon: "github",
+        links: {
+          live: "https://github.com/dzoxploit/tudio-app",
+          github: null,
+        },
+      },
+
       {
         title: "LocaleForge",
         description:
