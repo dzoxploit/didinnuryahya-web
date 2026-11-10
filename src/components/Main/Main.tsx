@@ -8,6 +8,7 @@ import { Work } from "../Work/Work";
 import { Education } from "../Education/Education";
 import { Medium } from "../Medium/Medium";
 import { YouTubeVideos } from "../Youtube/Youtube";
+import { Honour } from "../Honour/Honour";
 import WeatherAndPraySchedule from "../WeatherAndPraySchedule/WeatherAndPraySchedule";
 
 // icons
@@ -72,6 +73,7 @@ export function Main() {
       <About />
       <Work />
       <Education />
+      <Honour />
       <Medium />
       <YouTubeVideos />
       <Portfolio />
