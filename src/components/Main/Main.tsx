@@ -24,6 +24,9 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import outsystem from "../../assets/OutSystems.svg";
+import python from "../../assets/python-3.svg";
+import javaIcon from "../../assets/java.svg";
+import springbootIcon from "../../assets/Spring_Boot.svg";
 export function Main() {
   return (
     <Container>
@@ -35,6 +38,7 @@ export function Main() {
         <span>{"npm i"}</span>
         <span>{"sudo"}</span>
         <span>{"git push"}</span>
+        <span>{"sudo systemctl nginx restart"}</span>
       </div>
 
       <Particles
@@ -63,6 +67,9 @@ export function Main() {
                 { src: typescriptIcon, width: 20, height: 20 },
                 { src: vueIcon, width: 20, height: 20 },
                 { src: outsystem, width: 20, height: 20 },
+                { src: python, width: 20, height: 20 },
+                { src: javaIcon, width: 20, height: 20 },
+                { src: springbootIcon, width: 20, height: 20 },
               ],
             },
           },

@@ -12,6 +12,8 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import GoIcon from "../../assets/Go-Logo_Aqua.svg";
+import SpringbootIcon from "../../assets/Spring_Boot.svg";
+import JavaIcon from "../../assets/java.svg";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -28,6 +30,8 @@ export function About() {
     { icon: jsIcon, name: "JavaScript" },
     { icon: cssIcon, name: "CSS" },
     { icon: boostrapIcon, name: "Bootstrap" },
+    { icon: SpringbootIcon, name: "Springboot"},
+    { icon: JavaIcon, name: "Java"},
   ];
 
   return (
