@@ -29,7 +29,7 @@ export const workData = [
   },
 
   {
-    company: "Creative Indigo Production",
+    company: "PT Creative Indigo Production (cumicumi.com)",
     role: "Senior Web Developer",
     date: "September 2023 - September 2024",
     points: [
@@ -41,7 +41,7 @@ export const workData = [
   },
 
   {
-    company: "Sinarmas Land",
+    company: "Sinarmas Land (PT Sinarmas land TBK)",
     role: "Software Engineer Intern",
     date: "March 2023 - May 2023",
     points: [
@@ -54,7 +54,7 @@ export const workData = [
   },
 
   {
-    company: "Shipper",
+    company: "Shipper (PT Shippindo Teknologi Logistik)",
     role: "Test Engineer Intern",
     date: "Aug 2022 - Dec 2022",
     points: [
@@ -94,7 +94,7 @@ export const workData = [
   },
 
   {
-    company: "Bangbeli.com",
+    company: "Bangbeli.com (PT Good Teknologi Indonesia)",
     role: "Backend Developer Intern",
     date: "Nov 2020 - December 2020",
     points: [
@@ -117,10 +117,10 @@ export const workData = [
   },
 
   {
-    company: "Kerjapedia.id",
+    company: "Kerjapedia.id (CV Nagata Inovasi)",
     role: "Fullstack Developer",
     date: "August 2019 - May 2020",
-    points: ["Developed kerjapedia.id using Laravel, MySQL, and Bootstrap."],
+    points: ["Developed kerjapedia.id using Laravel, MySQL, and Bootstrap. and managing shared hosting using CPanel and Qwords"],
   },
 
   {

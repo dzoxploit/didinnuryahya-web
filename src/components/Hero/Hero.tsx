@@ -66,7 +66,7 @@ export function Hero() {
               <img src={whatsapp} alt="Whatsapp" />
             </a>
             <a
-              href="https://t.me/yourtelegram"
+              href="https://t.me/@Didinnuryahya"
               target="_blank"
               rel="noreferrer"
             >
