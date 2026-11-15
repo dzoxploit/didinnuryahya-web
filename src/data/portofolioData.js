@@ -339,6 +339,23 @@ const portfolioData = [
       },
 
       {
+        title: ".NET Core Learning",
+        description:
+          "Personal self-improvement Parking and Reservation platform built with modern frontend architecture and SEO-friendly rendering.",
+        tech: ["Lumen", "MySQL", "Next.js", "React.js"],
+        highlights: [
+          ".NET",
+          ".NET CORE MVC",
+          "SQL Server",
+        ],
+        status: "Personal Project",
+        icon: "github",
+        links: {
+          live: "https://github.com/dzoxploit/Net-core-learning",
+          github: null,
+        },
+      },
+      {
         title: "Sepertibiasa Blog",
         description:
           "Personal self-improvement blog platform built with modern frontend architecture and SEO-friendly rendering.",
