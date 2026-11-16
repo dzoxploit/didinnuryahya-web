@@ -14,6 +14,8 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import GoIcon from "../../assets/Go-Logo_Aqua.svg";
 import SpringbootIcon from "../../assets/Spring_Boot.svg";
 import JavaIcon from "../../assets/java.svg";
+import NetCoreIcon from "../../assets/NET_Core_Logo.svg";
+import csharpIcon from "../../assets/Logo_C_sharp.svg";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -32,6 +34,9 @@ export function About() {
     { icon: boostrapIcon, name: "Bootstrap" },
     { icon: SpringbootIcon, name: "Springboot"},
     { icon: JavaIcon, name: "Java"},
+    { icon: csharpIcon, name: "C#"},
+    { icon: NetCoreIcon, name: ".NET Core"},
+
   ];
 
   return (

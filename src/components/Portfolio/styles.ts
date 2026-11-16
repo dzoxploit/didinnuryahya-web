@@ -37,9 +37,13 @@ export const Container = styled.section`
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2.5rem;
     padding: 1rem 0;
+
+    > * {
+      min-width: 0;
+    }
   }
 
   .project {
@@ -50,6 +54,8 @@ export const Container = styled.section`
     height: 100%;
     position: relative;
     overflow: hidden;
+    min-width: 0;
+    overflow-wrap: anywhere;
 
     background: var(--card-bg);
     backdrop-filter: blur(12px);
@@ -207,7 +213,7 @@ export const Container = styled.section`
 
   @media (max-width: 1100px) {
     .projects {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
@@ -224,7 +230,7 @@ export const Container = styled.section`
     }
 
     .projects {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr);
       gap: 2rem;
     }
 
